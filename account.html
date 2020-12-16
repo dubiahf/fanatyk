@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>...</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" id="theme">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="js/change_theme.js"></script>
+  <script src="js/account.js"></script>
+</head>
+<body>
+  <!-- <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script> -->
+  <!-- NAVBAR -->
+  <nav class="navbar sticky-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">LOGO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <!-- searchbar -->
+          <li class="nav-item active">
+            <form class="form-inline">
+              <input class="form-control"  placeholder="wyszukaj">
+              <button class="btn" type="submit">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                  <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+              </button> 
+            </form>
+          </li>
+          <!-- produkty -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-tag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 2v4.586l7 7L13.586 9l-7-7H2zM1 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2z"/>
+                <path fill-rule="evenodd" d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+              </svg>
+              Kategorie
+            </a>
+          </li>
+          <!-- kontakt -->
+          <li class="nav-item">
+            <a class="nav-link" href="info.html">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                </svg>
+              Kontakt
+            </a>
+          </li>
+          <!-- konto -->
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">
+              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+              </svg>
+              Konto
+            </a>
+          </li>
+          <!-- koszyk -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-basket2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+                <path fill-rule="evenodd" d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+              </svg>
+              Koszyk
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- MAIN  -->
+  <div class="container">
+    <div class="row">
+      <h2 class="featurette-heading"><span style="font-weight: 400;">Witaj,</span> @<script>document.write(sessionStorage.getItem('loggedInUn'));</script>.</h2>
+    </div>
+
+    <hr>
+
+    <!-- trzy główne elementy i button edycji -->
+    <div class="row" style="position: relative;">
+      <button class="btn" type="button" style="position: absolute; top:5px; right:5px;" data-trigger="hover" data-toggle="popover" data-placement="right" data-content="Edycja danych jest w tym momencie niedostępna">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+         <path fill-rule="evenodd" d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+       </svg>
+     </button>
+      <div class="col-md-4 mt-5">
+        <svg width="10em" height="10em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+          <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg>
+      </div>
+      <div class="col-md-4 mt-5">
+        <span>
+          Nazwa użytkownika:
+        </span>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text input-group-text-disabled">@</div>
+          </div>
+          <input type="username" id="disabledUn" class="form-control" required disabled autocomplete="off">
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <span>
+          Hasło:
+        </span>
+          <input type="password" id="disabledPw" class="form-control" required disabled autocomplete="off">
+      </div>
+      <div class="col-md-4 my-5"></div>
+      <div class="col-md-4 my-5">
+        <span>
+          Adres e-mail:
+        </span>
+        <input type="email" id="disabledEn" class="form-control" required disabled autocomplete="off">
+      </div>
+    </div>
+
+    <!-- <script>
+      document.getElementById("disabledUn").placeholder = sessionStorage.getItem('loggedInUn');
+      document.getElementById("disabledPw").placeholder = sessionStorage.getItem('loggedInPw');
+      document.getElementById("disabledEn").placeholder = sessionStorage.getItem('loggedInEm');
+    </script> -->
+    
+    <hr>
+
+    <!-- dane personalne -->
+    <div class="row" style="position: relative;">
+      <div class="col-md-12">
+        <p>
+          <h2>
+            Dane personalne:
+          </h2>
+        </p>
+      </div>
+      <div class="col-md-4 mt-5">
+        <span>Imię</span>
+        <input type="name" class="form-control" disabled autocomplete="off">
+      </div>
+      <div class="col-md-4 mt-5">
+        <span>Nazwisko</span>
+        <input type="surname" class="form-control" disabled autocomplete="off">
+      </div>
+      <div class="col-md-4 mt-5">
+        <span>Telefon</span>
+        <input type="tel" class="form-control" disabled pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" autocomplete="off">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- 404 i log out -->
+    <div class="row">
+      <div class="col-md-4 text-center mt-5">
+        <span>
+          <a href="404.html">
+            Historia zakupów
+          </a>
+        </span>
+      </div>
+      <div class="col-md-4 text-center mt-5">
+        <span>
+          <a href="404.html">
+            Punkty rabatowe
+          </a>
+        </span>
+      </div>
+      <div class="col-md-4 text-center mt-5">
+        <span>
+          <a href="home.html" id="logout">
+            WYLOGUJ SIĘ
+          </a>
+        </span>
+        <!-- <script>
+          document.getElementById('logout').onclick = function (){logout()};
+
+          function logout(){
+            sessionStorage.removeItem('loggedInUn');
+            sessionStorage.removeItem('loggedInPw');
+            sessionStorage.removeItem('loggedInEm');
+          };
+        </script> -->
+      </div>
+    </div>
+    
+  </div>
+  <!-- KONIEC MAIN -->
+
+  <hr class="featurette-divider">
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <!-- theme change div -->
+    <div class="collapse col-1 offset-7" id="theme-menu">
+      <a href="#" onclick="changeCSS('css/style.css', 0);">
+        <img src="media/theme-icon.png" class="theme-icon">
+      </a> 
+      <a href="#" onclick="changeCSS('css/style_dark.css', 0);">
+        <img src="media/theme-icon-dark.png" class="theme-icon">
+      </a>
+    </div>
+    <div id="smallFooter">
+      <!-- powrót do strony głównej -->
+      <p class="float-right">
+        <a href="home.html">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+        </a>
+      </p>
+
+      <p>&copy; Chmielnicki-Dubiaho, Inc. 
+        
+        &middot;
+        <!-- kontakt -->
+        <a href="info.html#">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+          </svg>
+        </a> 
+        
+        &middot;
+        <!-- pomoc -->
+        <a href="info.html#pomoc">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+            <circle cx="8" cy="4.5" r="1"/>
+          </svg>
+        </a> 
+        
+        &middot;
+        <!-- onas -->
+        <a href="info.html#onas">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+          </svg> 
+        </a> 
+        
+        &middot;
+        <!-- polityka -->
+        <a href="info.html#polityka">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm-7-1a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7zm0-3a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+          </svg>
+        </a>
+      </p>
+    </div>
+    <div id="normalFooter">
+      
+      <!-- powrót do strony głównej -->
+      <p class="float-right">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+        </svg>
+        <a href="home.html">
+          Powrót do strony głownej.
+        </a>
+      </p>
+
+      <p>&copy; MM-MMXX Chmielnicki-Dubiaho, Inc. 
+        <!-- kontakt -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+        </svg>
+        <a href="info.html#"> Kontakt </a> 
+        <!-- pomoc -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+            <circle cx="8" cy="4.5" r="1"/>
+        </svg>
+        <a href="info.html#pomoc"> Pomoc </a> 
+        <!-- onas -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        </svg> 
+        <a href="info.html#onas"> O nas </a> 
+        <!-- polityka -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm-7-1a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7zm0-3a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+        </svg>
+        <a href="info.html#polityka"> Polityka prywatności </a>
+        <!-- theme button -->
+        <button type="button" class="btn btn-footer" id="theme-switch" data-toggle="collapse" data-target="#theme-menu" aria-expanded="false" aria-controls="collapseExample">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+            <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+          </svg>
+        </button>
+      </p>
+    </div>
+  </footer>
+
+</body></html>

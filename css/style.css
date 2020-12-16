@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+a{
+    color: rgb(0, 160, 135);
+}
+a:focus,
+a:active,
+a:hover{
+    color: rgb(0, 112, 95);
+}
+    /* navbar */
+.navbar{
+    background-color: rgb(0, 160, 135);
+}
+.navbar a{
+    color: rgb(240, 240, 240);
+}
+.navbar a:focus,
+.navbar a:active,
+.navbar a:hover{
+    color: rgb(0, 112, 95);
+}
+.navbar-toggler{
+    border-color: rgb(240, 240, 240);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    background-color: rgb(0, 112, 95);
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,240,240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*              FORM             */
+
+.form-control{
+    border-radius: 0;
+    border:none;
+    border-bottom: 2px solid silver;
+    transition:all .6s;
+    font-size: 17px;
+}
+.form-control:focus, 
+.form-control:hover{
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid rgb(0, 160, 135);
+}
+.form-control:invalid:focus{
+    border-color: rgb(240, 100, 105);
+}
+.input-group-text{
+    border: none;
+    background: white;
+}
+
+
+
+/* .form-badInput{
+    background-color: rgb(240, 100, 105);
+}
+.form-badInput::-webkit-input-placeholder{
+    color:#212529
+} */
+
+
+/* .custom-checkbox:checked{
+    fill: rgb(0, 160, 135);
+} */
+    /* form text color
+.form-control::-webkit-input-placeholder {
+    color: rgba(240, 240, 240, 0.5);
+} */
+
+    /* buttons */
+.btn{
+    background-color: rgb(0, 160, 135);
+}
+.btn, 
+.btn:hover, 
+.btn:focus, 
+.btn:active{
+    border-radius: 0;
+    color: rgb(240, 240, 240);
+    outline: none;
+    box-shadow: none;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:hover,
+.btn:focus, 
+.btn:active, 
+.btn:hover{
+    background-color: rgb(0, 112, 95);
+}
+.btn-primary,
+.btn-secondary{
+    background-color: rgb(0, 160, 135);
+    color: rgb(240, 240, 240);
+    border: none;
+}
+.btn-footer{
+    background-color: rgb(240, 240, 240);
+    color: #212529;
+}
+
+    /* themes*/
+.theme-icon{
+    width: 25px;
+    height: 25px;
+    border:1px solid black;
+}
+#theme-menu{
+    background-color: rgb(0, 112, 95);
+    border-radius: 2px;
+}
+
+.top-buffer { margin-top:50px; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  rect{
+      fill: rgb(145, 155, 155);
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+  /*          responsywny footer */
+@media only screen and (min-width: 993px) {
+    #smallFooter {
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #normalFooter {
+        display: none;
+    }
+}
+img{
+  height:250px;
+  width:250px;
+  margin-top:20px;
+  }
+.item{
+  margin 20px;
+  transition: all 0.3s;
+  }
+.item:hover{
+  transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -webkit-transform:scale(1.05);
+  box-shadow: 0 0 20px;
+  background-color: #FFF;
+  }
+input{
+    width: 50px;
+    text-align: center;
+
+  }
+  .simpleCart_items img{
+    max-height: 64px;
+    max-width: 64px;
+
+
+  }
