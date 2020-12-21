@@ -22,6 +22,10 @@ a:hover{
     border-radius: 0px;
 }
 
+.dropdown-item{
+    color: var(--text);
+}
+
 .dropdown-item:active{
     background-color: var(--bg);
 }
@@ -108,7 +112,7 @@ a:hover{
     background: var(--input-background);
 }
 
-    /* buttons */
+    /* buttony */
 
 .btn{
     background-color: var(--bg-dropdown);
@@ -143,6 +147,54 @@ a:hover{
     border: none;
 }
 
+/* zdjecia */
+
+img{	
+  height:250px;	
+  width:250px;	
+  margin-top:20px;	
+}
+	
+.item{	
+  margin 20px;	
+  transition: all 0.3s;	
+}
+
+.item:hover{	
+  transform:scale(1.05);	
+  -ms-transform:scale(1.05);	
+  -webkit-transform:scale(1.05);	
+  box-shadow: 0 0 20px;	
+  background-color: #FFF;	
+}
+	
+input{	
+    width: 50px;	
+    text-align: center;	
+
+}
+
+.simpleCart_items img{	
+    max-height: 64px;	
+    max-width: 64px;	
+}
+
+.informacje,.informacje:hover{	
+    color:black;	
+    text-decoration: none;	
+}
+
+.produkt_karty{	
+    background-color: white;	
+
+}
+
+.item-quantity, .item-decrement, .item-increment{	
+    text-align: center;	
+
+}
+
+
 .top-buffer { margin-top:50px; }
 
 /* MARKETING CONTENT
@@ -151,58 +203,60 @@ a:hover{
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
-  }
-  .marketing h2 {
+}
+
+.marketing h2 {
     font-weight: 400;
-  }
-  .marketing .col-lg-4 p {
+}
+
+.marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
-  }
+}
   
   
   /* Featurettes
   ------------------------- */
   
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
+.featurette-divider {
+    margin: 5rem 0; 
+}
   
-  /* Thin out the marketing headings */
-  .featurette-heading {
+.featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
-  }
+}
 
-  rect{
-      fill: rgb(145, 155, 155);
-  }
+rect{
+    fill: rgb(145, 155, 155);
+}
   
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
-  @media (min-width: 40em) {
-    .featurette-heading {
+@media (min-width: 40em){
+    .featurette-heading{
       font-size: 50px;
     }
-  }
+}
   
-  @media (min-width: 62em) {
-    .featurette-heading {
+@media (min-width: 62em){
+    .featurette-heading{
       margin-top: 7rem;
     }
-  }
+}
 
   /*          responsywny footer */
-@media only screen and (min-width: 993px) {
-    #smallFooter {
+@media only screen and (min-width: 993px){
+    #smallFooter{
         display: none;
     }
 }
-@media only screen and (max-width: 992px) {
-    #normalFooter {
+
+@media only screen and (max-width: 992px){
+    #normalFooter{
         display: none;
     }
 }
@@ -257,41 +311,3 @@ a:hover{
     --input-background: var(--white0);
 
 }
-img{
-  height:250px;
-  width:250px;
-  margin-top:20px;
-  }
-.item{
-  margin 20px;
-  transition: all 0.3s;
-  }
-.item:hover{
-  transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -webkit-transform:scale(1.05);
-  box-shadow: 0 0 20px;
-  background-color: #FFF;
-  }
-input{
-    width: 50px;
-    text-align: center;
-
-  }
-  .simpleCart_items img{
-    max-height: 64px;
-    max-width: 64px;
-  }
-  .informacje,.informacje:hover{
-    color:black;
-    text-decoration: none;
-  }
-  .produkt_karty{
-    background-color: white;
- 
-  }
-.item-quantity, .item-decrement, .item-increment{
-    text-align: center;
-
-}
-

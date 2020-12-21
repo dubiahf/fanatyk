@@ -171,6 +171,48 @@ window.onload=function(){
             };
     };
     // koniec troubleshoot
+
+
+    // theme.js + checkLogIn bo nie można mieć >2 window.onload=function() w jednym htmlu
+
+    // referencje z htmla do motywu
+
+    const body = document.body;
+    const theme = localStorage.getItem('theme');
+    
+    // jezeli w localStorage jest zchacheowany theme, zmien klase body
+    if(theme){
+        document.body.classList.add(theme);
+    }
+
+    // przyciski podmieniaja klase body i zapisuja wybor do local storage
+    document.getElementById('dark').onclick=()=>{
+        body.classList.replace('light', 'dark');
+        localStorage.setItem('theme', 'dark');
+    };
+            
+    document.getElementById('light').onclick=()=>{
+        body.classList.replace('dark', 'light');
+        localStorage.setItem('theme', 'light');
+    };
+    
+    // sprawdza czy jest przycisk do konta bo inaczej bedzie wywyalal error do consoli
+    if( document.getElementById('accLink')){
+
+        // po kliknieciu na "konto" w navbarze przywołuje funkcję checkLogIn
+        document.getElementById('accLink').addEventListener("click", function (){
+
+        // funkcja sprawdza czy w session storage coś jest, jeżeli tak przekierowuje na account.html
+        // else href=login.html
+        if(sessionStorage.getItem('loggedInUn') != null){
+            document.getElementById('accLink').href="account.html"
+        }else{
+            document.getElementById('accLink').href="login.html"
+        }
+        });
+    };
+    // koniec theme + checkLogIn
+
 };
 // koniec window.onload=function
 
@@ -180,7 +222,5 @@ window.onload=function(){
                         // -moze to na localStorage przerobic -- moze na przycisk zapamiętaj mnie albo coś
            
                         // remember me przycisk jak zaznaczony to zamiast session storage dajemy local -- TO SAMO CO JEST WYZEJ Z LOCAL -- MOZE
-                    
-                        // -uporzadkowac ten jebany kod tu w htmlu i w cssie(!!!!!)
 
                         // jakos lepiej dac ten array do session storage -- ???
