@@ -1,38 +1,84 @@
 body{
-    background-color: rgb(240, 240, 240);
+    color: var(--text);
+    background: var(--bg);
+    transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }
 a{
-    color: rgb(0, 160, 135);
+    color: var(--a-text);
+    text-decoration: none;
 }
 a:focus,
 a:active,
 a:hover{
-    color: rgb(0, 112, 95);
+    color: var(--a-text-hover);
 }
+
+/* DROPDOWN DO MOTYWU */
+
+.dropdown-menu{
+    background-color: var(--bg-dropdown);
+    
+    border: none;
+    border-radius: 0px;
+}
+
+.dropdown-item:active{
+    background-color: var(--bg);
+}
+
+#light::before{
+    content: var(--bg-light);
+}
+
+#dark::before{
+    content: var(--bg-dark);
+} 
+
+.dropdown-menu a::before{
+    content:'';
+    border: 1px solid white;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
     /* navbar */
+
 .navbar{
-    background-color: rgb(0, 160, 135);
+    background-color: var(--bg-nav)
 }
+
 .navbar a{
-    color: rgb(240, 240, 240);
+    color: var(--nav-text);
 }
+
+
 .navbar a:focus,
 .navbar a:active,
 .navbar a:hover{
-    color: rgb(0, 112, 95);
+    color: var(--a-text-hover);
 }
+
 .navbar-toggler{
-    border-color: rgb(240, 240, 240);
+    border-color: var(--bg);
 }
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    background-color: rgb(0, 112, 95);
+    background-color: var(--bg-dropdown1);
     outline: none;
     box-shadow: none;
 }
+
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,240,240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand{
+    height: 100px;
 }
 
 
@@ -41,55 +87,43 @@ a:hover{
 .form-control{
     border-radius: 0;
     border:none;
-    border-bottom: 2px solid silver;
+    border-bottom: 2px solid var(--form-border-inactive);
     transition:all .6s;
     font-size: 17px;
 }
+
 .form-control:focus, 
 .form-control:hover{
     outline: none;
     box-shadow: none;
-    border-bottom: 2px solid rgb(0, 160, 135);
+    border-bottom: 2px solid var(--border);
 }
+
 .form-control:invalid:focus{
-    border-color: rgb(240, 100, 105);
+    border-color: var(--form-border-invalid);
 }
+
 .input-group-text{
     border: none;
-    background: white;
+    background: var(--input-background);
 }
-
-
-
-/* .form-badInput{
-    background-color: rgb(240, 100, 105);
-}
-.form-badInput::-webkit-input-placeholder{
-    color:#212529
-} */
-
-
-/* .custom-checkbox:checked{
-    fill: rgb(0, 160, 135);
-} */
-    /* form text color
-.form-control::-webkit-input-placeholder {
-    color: rgba(240, 240, 240, 0.5);
-} */
 
     /* buttons */
+
 .btn{
-    background-color: rgb(0, 160, 135);
+    background-color: var(--bg-dropdown);
 }
+
 .btn, 
 .btn:hover, 
 .btn:focus, 
 .btn:active{
     border-radius: 0;
-    color: rgb(240, 240, 240);
+    color: var(--nav-text);
     outline: none;
     box-shadow: none;
 }
+
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:hover,
@@ -99,34 +133,21 @@ a:hover{
 .btn:focus, 
 .btn:active, 
 .btn:hover{
-    background-color: rgb(0, 112, 95);
-}
-.btn-primary,
-.btn-secondary{
-    background-color: rgb(0, 160, 135);
-    color: rgb(240, 240, 240);
-    border: none;
-}
-.btn-footer{
-    background-color: rgb(240, 240, 240);
-    color: #212529;
+    background-color: var(--bg-dropdown1);
 }
 
-    /* themes*/
-.theme-icon{
-    width: 25px;
-    height: 25px;
-    border:1px solid black;
-}
-#theme-menu{
-    background-color: rgb(0, 112, 95);
-    border-radius: 2px;
+.btn-primary,
+.btn-secondary{
+    background-color: var(--bg-dropdown);
+    color: var(--bg);
+    border: none;
 }
 
 .top-buffer { margin-top:50px; }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
+
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -185,30 +206,54 @@ a:hover{
         display: none;
     }
 }
-img{
-  height:250px;
-  width:250px;
-  margin-top:20px;
-  }
-.item{
-  margin 20px;
-  transition: all 0.3s;
-  }
-.item:hover{
-  transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -webkit-transform:scale(1.05);
-  box-shadow: 0 0 20px;
-  background-color: #FFF;
-  }
-input{
-    width: 50px;
-    text-align: center;
 
-  }
-  .simpleCart_items img{
-    max-height: 64px;
-    max-width: 64px;
+/* MOTYWY */
 
+:root{
+    --green0: #00a087;
+    --green1: #00705f;
+    --white0: #ffffff;
+    --white1: #f0f0f0;
+    --red0: #f06469;
+    --black0: #000000;
+    --black1: #212529;
+    --black2: #323538;
+    --silverMetallic: #ada8b6;
 
-  }
+    --bg-light: linear-gradient(45deg, var(--green0) 0%, var(--white1) 100%);
+    --bg-dark: linear-gradient(45deg, var(--black1) 0%, var(--black2) 100%);
+}
+
+.light{
+    --bg: var(--white1);
+    --bg-nav: var(--green0);
+    --bg-dropdown: var(--green0);
+    --bg-dropdown1: var(--green1);
+    --dropdown-top-border: var(--black1);
+    --text: var(--black1);
+    --nav-text: var(--white1);
+    --a-text: var(--green0);
+    --a-text-hover: var(--green1);
+    --border: var(--green0);
+    --form-border-invalid: var(--red0);
+    --form-border-inactive: var(--silverMetallic);
+    --input-background: var(--white0);
+
+}
+
+.dark{
+    --bg: var(--black1);
+    --bg-nav: var(--black2);
+    --bg-dropdown: var(--black2);
+    --bg-dropdown1: var(--silverMetallic);
+    --dropdown-top-border: var(--white1);
+    --text: var(--white1);
+    --nav-text: var(--white1);
+    --a-text: var(--green0);
+    --a-text-hover: var(--silverMetallic);
+    --border: var(--white1);
+    --form-border-invalid: var(--red0);
+    --form-border-inactive: var(--silverMetallic);
+    --input-background: var(--white0);
+
+}
