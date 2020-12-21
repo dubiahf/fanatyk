@@ -22,6 +22,10 @@ a:hover{
     border-radius: 0px;
 }
 
+.dropdown-item{
+    color: var(--text);
+}
+
 .dropdown-item:active{
     background-color: var(--bg);
 }
