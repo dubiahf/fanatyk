@@ -4,17 +4,38 @@
   <meta charset="UTF-8">
   <title>...</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css" id="theme">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <script src="js/change_theme.js"></script>
+  <script src="js/checkLogIn.js"></script>
+  <script src="js/theme.js"></script>
   <script src="js/simpleCart.js"></script>
 </head>
-<body>
-
-  <nav class="navbar navbar-expand-lg">
+<body class="light">
+  <!-- NAVBAR -->
+  <nav class="navbar sticky-top navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="home.html">LOGO</a>
+      <a class="navbar-brand" href="home.html">
+        <svg width="100%" height="100%" version="1.1" viewBox="0 0 137.44 69.714" xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(-38.459 -56.615)">
+           <g stroke="#fff">
+            <g>
+             <path d="m67.33 110.38q-1.2892 0-2.3277-0.78784-1.0385-0.82365-1.6115-2.1845-0.57298-1.3966-0.57298-3.1156 0-3.9034 2.65-5.4791 2.6858-1.6115 6.2311-1.8264 0-1.9338-0.25067-2.8649-0.25067-0.93108-1.2176-0.93108-0.82365 0-1.2534 0.6446-0.42973 0.6446-0.53716 1.6473l-4.9061-0.85946q0.35811-2.7574 2.2561-3.9392 1.898-1.1818 4.4406-1.1818 3.2588 0 4.8703 1.7189 1.6473 1.7189 1.6473 4.4764v10.421q0 1.6831 0.53717 3.5811l-4.9061 0.42973-0.57297-2.471q-0.6446 1.146-1.898 1.9338-1.2534 0.78784-2.5784 0.78784zm2.3277-3.5811q0.60879 0 1.0027-0.2865 0.42973-0.2865 1.0385-0.93108v-5.5865q-1.7906 0-2.8649 0.9669-1.0743 0.9669-1.0743 3.0081 0 1.3608 0.46554 2.1128 0.50135 0.71622 1.4324 0.71622z" stroke-width="5" style="paint-order:stroke markers fill;white-space:pre"/>
+             <path d="m82.506 90.185 5.0135-0.42973v2.5784q1.5399-1.3608 3.0081-2.077 1.504-0.75203 2.7574-0.75203 1.898 0 3.0797 1.3966 1.2176 1.3608 1.2176 3.6885v15.112l-5.0136 0.42973v-13.644q0-2.6858-1.8263-2.6858-0.6088 0-1.3608 0.35811-0.71623 0.35811-1.8622 1.0385v14.503l-5.0135 0.42973z" stroke-width="5.5" style="paint-order:stroke markers fill;white-space:pre"/>
+             <g stroke-width="5">
+              <path d="m107.37 110.38q-1.2892 0-2.3277-0.78784-1.0385-0.82365-1.6115-2.1845-0.57297-1.3966-0.57297-3.1156 0-3.9034 2.65-5.4791 2.6858-1.6115 6.2311-1.8264 0-1.9338-0.25074-2.8649-0.25073-0.93108-1.2176-0.93108-0.82363 0-1.2534 0.6446-0.42974 0.6446-0.53717 1.6473l-4.9061-0.85946q0.35813-2.7574 2.2561-3.9392 1.898-1.1818 4.4406-1.1818 3.2588 0 4.8703 1.7189 1.6473 1.7189 1.6473 4.4764v10.421q0 1.6831 0.53717 3.5811l-4.9061 0.42973-0.57297-2.471q-0.6446 1.146-1.898 1.9338-1.2534 0.78784-2.5784 0.78784zm2.3277-3.5811q0.6088 0 1.0027-0.2865 0.42974-0.2865 1.0385-0.93108v-5.5865q-1.7906 0-2.8649 0.9669-1.0743 0.9669-1.0743 3.0081 0 1.3608 0.46557 2.1128 0.50133 0.71622 1.4324 0.71622z" style="paint-order:stroke markers fill;white-space:pre"/>
+              <path d="m129.83 110.31q-2.4351 0-4.1182-1.2176-1.6831-1.2534-1.6831-4.4048v-11.137h-2.7933l0.21486-3.796h2.7216l0.50136-4.3689 4.3689-0.60879v4.9777h4.1541l-0.21487 3.796h-3.9034v11.101q0 1.0743 0.53717 1.5399 0.53713 0.46555 1.5757 0.46555 0.57297 0 1.9338-0.21487v3.4737q-0.14313 0.0358-1.146 0.21486-0.9669 0.17907-2.1487 0.17907z" style="paint-order:stroke markers fill;white-space:pre"/>
+              <path d="m133.6 118.15c0.21589-3.51 1.0748-4.4092 1.0748-4.4092-0.32314-0.24336-0.67556-0.67484-0.67556-0.67484 1.3252-1.1499 4.5945-1.4712 6.0591-1.3213 0 0-0.96115 0.71411-2.2251 2.3191-1.264 1.605-2.4073 6.0006 0.53906 6.0524 2.9464 0.0519 3.6236-9.1359 3.6236-11.094v-1.0027l-5.7656-18.013 5.4433-0.25067 2.8291 12.641 2.6858-12.534 4.548-0.0358s-4.4493 17.106-5.1568 19.732c-0.7075 2.6254-2.8297 14.212-7.5931 14.269-4.7634 0.0577-5.6024-2.169-5.3867-5.6791z" style="paint-order:stroke markers fill;white-space:pre"/>
+              <path d="m165.95 110.38-4.0824-10.027-1.6473 2.1845v7.3771h-5.0136v-26.214l5.0136-0.6446v13.322l5.121-6.625h5.4433l-5.6581 7.2696 5.2642 11.853z" style="paint-order:stroke markers fill;white-space:pre"/>
+             </g>
+            </g>
+            <path transform="scale(.26458)" d="m319.35 223.43c-0.69066 0.0106-1.3945 0.0335-2.1113 0.0684-3.8231 0.18594-7.997 0.74145-12.342 1.8828-12.317 3.2356-20.603 8.4942-31.115 16.166-2.784 2.0318-5.5671 4.1806-8.3301 6.4141-28.505-1.6186-59.522 2.4304-81.123 29.689-3.0536 3.8534-4.9281 7.9475-4.6953 12.277 0.23276 4.3299 2.7914 8.0499 5.9356 10.488 5.7899 4.4902 13.855 6.5486 23.309 7.9141-11.073 17.281-17.571 35.339-19.852 42.268l-6.6016-2.6406a5.6693 5.6693 0 0 0-2.2891-0.40625 5.6693 5.6693 0 0 0-5.0781 3.5566 5.6693 5.6693 0 0 0 3.1523 7.375l0.46094 0.18359c-0.26811 0.43084-0.50823 0.88072-0.69336 1.3672l-22.604 59.396c-1.923 5.0531 1.6218 11.059 7.9492 13.467l3.377 1.2852c6.3274 2.408 12.97 0.27773 14.893-4.7754l10.258-26.953a17.375 17.375 0 0 0 2.3652 0.16406 17.375 17.375 0 0 0 17.375-17.375 17.375 17.375 0 0 0-7.6992-14.43l0.30469-0.80079c0.12695-0.33358 0.22659-0.67308 0.30664-1.0137l0.85742 0.34375a5.6693 5.6693 0 0 0 7.3672-3.1602 5.6693 5.6693 0 0 0-3.1602-7.3672l-4.6894-1.875c17.172-7.8549 26.956-18.988 30.416-30.117 1.8017-5.7951 1.5883-11.588-0.13282-16.641 15.237 0.15751 30.809-0.9725 42.562-2.6934 25.274-3.7004 39.602-1.3712 47.223 1.418 3.8102 1.3946 5.9668 2.8877 7.1152 3.875 1.1484 0.9873 1.0059 0.95312 1.0059 0.95312a5.6693 5.6693 0 0 0 7.7129 2.1914 5.6693 5.6693 0 0 0 2.1934-7.7129s-1.3081-2.1206-3.5215-4.0234c-2.2134-1.9028-5.6167-4.1011-10.607-5.9277-9.9814-3.6533-26.212-5.8733-52.76-1.9863-5.6438 0.82632-12.403 1.5028-19.609 1.9531 2.5306-1.3898 5.0377-2.894 7.4668-4.5371 8.2606-5.5876 15.728-12.567 19.865-21.244 1.6298-3.4185 2.5215-7.1635 2.707-11.045 8.1401 1.0095 16.093 2.0993 23.564 2.8281 12.748 1.2434 24.26 1.6415 33.795-2.627 8.0101-3.5858 13.027-7.4757 14.527-13.244 0.75023-2.8842 0.22588-5.8862-0.88672-8.1856-1.1126-2.2993-2.6848-4.0629-4.3613-5.5664-4.1342-3.7075-9.2731-6.2181-12.615-7.6055l-0.0156-0.16797-3.5371-1.1582s-0.0496-0.0133-0.0508-0.0137a5.6693 5.6693 0 0 0-0.31445-0.0899c-0.88115-0.27658-7.5946-2.2912-17.27-2.1426zm0.0273 11.338c1.6358-6e-3 3.1103 0.0981 4.5644 0.20118-2.6747 2.0854-5.5771 4.3147-9.5234 6.1641-7.3896 3.463-16.105 5.5355-25.01 3.6465 5.7347-3.6472 11.221-6.5602 18.367-8.4375 3.495-0.91814 6.8432-1.3654 9.9062-1.5273 0.58605-0.031 1.15-0.0449 1.6953-0.0469zm18.203 3.4785c2.6739 1.2535 5.984 3.0004 7.998 4.8066 0.9449 0.84738 1.5328 1.642 1.7344 2.0586 0.20156 0.41656 0.14514 0.29097 0.11718 0.39844-0.0559 0.21494-1.5673 2.7779-8.1934 5.7441-5.2946 2.3702-13.919 2.799-24.432 2.0039 1.531-0.57498 3.0147-1.1952 4.4277-1.8574 6.0731-2.846 11.105-6.3364 14.777-9.5879 1.3778-1.2201 2.5662-2.3966 3.5703-3.5664zm-84.863 20.701c-14.666 13.419-27.826 28.036-36.385 38.895-1.2034-0.12383-2.3866-0.25667-3.5391-0.40625-9.6576-1.2534-17.43-3.7709-20.279-5.9805-1.4246-1.1048-1.5341-1.5688-1.5644-2.1328-0.0303-0.56406 0.24697-2.0816 2.2656-4.6289 15.88-20.038 37.025-25.519 59.502-25.746zm17.232 0.6875c1.74 0.14004 3.4774 0.29695 5.2109 0.46875 0.0522 2.5222-0.41268 4.9916-1.5918 7.4648-2.815 5.9044-8.7938 11.872-15.982 16.734-7.1887 4.8625-15.507 8.6484-22.412 10.762-0.55056 0.1685-0.87901 0.15579-1.4102 0.30273 9.9495-11.529 22.487-24.332 36.186-35.732zm-47.955 50.057c0.22111 0.0147 0.44031 0.0309 0.66211 0.0449 2.7051 2.8282 3.7239 7.5522 1.8066 13.719-2.1034 6.7652-8.4982 14.869-21.045 21.43 3.601-9.5476 9.1414-21.875 18.576-35.193z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" stroke-linecap="square" stroke-width="18.898" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;paint-order:markers stroke fill;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+           </g>
+           <path d="m52.275 99.605a0.5 0.5 0 0 0-0.44545 0.26975l-0.73742 1.418-1.4185-0.73845a0.5 0.5 0 0 0-0.23048-0.0548 0.5 0.5 0 0 0-0.44545 0.26768 0.5 0.5 0 0 0 0.21291 0.67593l1.4196 0.73794-0.73794 1.4185a0.5 0.5 0 0 0 0.21291 0.67334 0.5 0.5 0 0 0 0.67386-0.21291l0.73742-1.418 1.4206 0.73846a0.5 0.5 0 0 0 0.67386-0.21291 0.5 0.5 0 0 0-0.21291-0.67386l-1.4196-0.73949 0.73794-1.4185a0.5 0.5 0 0 0-0.21291-0.67386 0.5 0.5 0 0 0-0.22841-0.0568z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+           <text fill="#000000" font-family="sans-serif" font-size="10.583px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" xml:space="preserve"/>
+          </g>
+         </svg>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,7 +45,7 @@
           <li class="nav-item active">
             <form class="form-inline">
               <input class="form-control"  placeholder="wyszukaj">
-              <button class="btn " type="submit">
+              <button class="btn" type="submit">
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
                   <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
@@ -44,16 +65,16 @@
           </li>
           <!-- kontakt -->
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">
-              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-              </svg>
+            <a class="nav-link" href="info.html">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                </svg>
               Kontakt
             </a>
           </li>
           <!-- konto -->
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" id="accLink" href="">
               <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
                 <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -64,104 +85,121 @@
           </li>
           <!-- koszyk -->
           <li class="nav-item">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">
+            <a class="nav-link" href="#"  data-toggle="modal" data-target="#cart">
               <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-basket2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
                 <path fill-rule="evenodd" d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
               </svg>
-              Koszyk (<span class="simpleCart_quantity"></span>)
-            </button>
+              Koszyk(<span class="simpleCart_quantity"></span>)
+            </a>
+          </li>
+          <!-- motyw -->
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+                  <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+                </svg>
+                Motyw
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" id="light" href="#">Jasny</a>
+                <a class="dropdown-item" id="dark" href="#">Ciemny</a>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Main -->
   
-  <br />
+  <!-- MAIN -->
+
+ <br />
   <div class="container">
-	<div class="row">
-	
-		<div class="col-md-4 item text-center">
-			<div class="simpleCart_shelfItem">
-				<h2 class="item_name"> Pomarańcz </h2>
-				<div class="row">
-					<div class="col-md-12">
-						<img class="item_thumb" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-    						<h4 class="item_price">1 zł</h4><br>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<input type="text" value="1" class="item_Quantity"><br>
-					</div>
-					<div class="col-md-6">
-						<a class="item_add btn btn-primary" href="javascript:;"> Do koszyka </a><br>
-					</div>
-				</div>
-			</div>
-		</div>
-
-				<div class="col-md-4 item text-center">
-			<div class="simpleCart_shelfItem">
-				<h2 class="item_name"> Banan </h2>
-				<div class="row">
-					<div class="col-md-12">
-						<img class="item_thumb" src="http://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg" alt="Card image cap">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-    						<h4 class="item_price">1.20 zł</h4><br>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3">
-						<input type="text" value="1" class="item_Quantity"><br>
-					</div>
-					<div class="col-md-4">
-						<a class="item_add btn btn-primary" href="#"> Szczegóły </a><br>
+  <div class="row">
+  <a href="checkout.html" class="informacje">
+    <div class="col-md-4 item text-center ">
+      <div class="simpleCart_shelfItem">
+        <h2 class="item_name"> Żyłka Fiume Match&Feeder <br> 150m/0,16mm </h2>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/97dfb1f12c5f0dd0cc17cffefc603e07/images/thumbnail/large_big-fiume-match-feeder.jpg?lm=1563276984" alt="Card image cap">
           </div>
-          <div class="col-md-5">
-						<a class="item_add btn btn-primary" href="javascript:;"> Do koszyka </a><br>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-md-4 item text-center">
-			<div class="simpleCart_shelfItem">
-				<h2 class="item_name"> Cytryny </h2>
-				<div class="row">
-					<div class="col-md-12">
-						<img class="item_thumb" src="https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg" alt="Card image cap">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-    						<h4 class="item_price">2.40 zł</h4><br>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<input type="text" value="1" class="item_Quantity">
-					</div>
-					<div class="col-md-6">
-						<a class="item_add btn btn-primary" href="javascript:;"> Do koszyka </a>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-	</div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+                <h4 class="item_price">1 zł</h4><br>
+          </div>
+        </div>
+  </a>
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" value="1" class="item_Quantity"><br>
+          </div>
+          <div class="col-md-6">
+            <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+<a href="checkout.html" class="informacje">
+        <div class="col-md-4 item text-center ">
+      <div class="simpleCart_shelfItem">
+        <h2 class="item_name"> Kołowrotek Daiwa Sweepfire E <br> 3000C </h2>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/26f0a28d404fc3634787e5ad73048abe/images/thumbnail/large_big-daiwa-sweepfire-e-reel-spinning-fixed-spool-reels.jpg?lm=1554996442" alt="Card image cap">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+                <h4 class="item_price">1.20 zł</h4><br>
+          </div>
+        </div>
+</a>
+        <div class="row">
+          <div class="col-md-6 ">
+            <input type="text" value="1" class="item_Quantity"><br>
+          </div>
+          <div class="col-md-6" >
+            <a class="item_add btn btn-primary" href="javascript:;"> Do koszyka </a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+<a href="checkout.html" class="informacje">
+    <div class="col-md-4 item text-center ">
+      <div class="simpleCart_shelfItem">
+        <h2 class="item_name"> Wędka Robinson Stinger Feeder 3,6m  <br>50-110g </h2>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/ddc19a78bc5496a594b06b6657a0ed32/images/thumbnail/large_stinger-feeder.jpg?lm=1555020273" alt="Card image cap">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+                <h4 class="item_price">2.40 zł</h4><br>
+          </div>
+        </div>
+</a>
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" value="1" class="item_Quantity">
+          </div>
+          <div class="col-md-6">
+            <a class="item_add btn btn-primary" href="javascript:;"> Do koszyka </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+  </div>
 </div>
+
 <script>
 simpleCart({
     // array representing the format and columns of the cart,
@@ -182,8 +220,8 @@ simpleCart({
     // how simpleCart should checkout, see the 
     // checkout reference for more info 
     checkout: { 
-        type: "PayPal" , 
-        email: "kamiljan.bienkowski@gmail.com" 
+        type: "SendForm" , 
+        url: "checkout.html",
     },
     // set the currency, see the currency 
     // reference for more info
@@ -224,6 +262,21 @@ simpleCart({
     beforeCheckout        : null,
         beforeRemove           : null
 });
+
+simpleCart.bind( 'update' , function(){
+  if (simpleCart.quantity() == 0)
+  {
+    $( ".hideIfEmpty" ).hide();
+    $( ".showIfEmpty" ).show();
+  }
+  else
+  {
+    $( ".hideIfEmpty" ).show();
+    $( ".showIfEmpty" ).hide();    
+  }
+});
+
+
 </script>
 
   
@@ -241,95 +294,137 @@ simpleCart({
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Koszyk <span class="showIfEmpty">jest pusty</span></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <div class="hideIfEmpty">
       <div class="modal-body">
        <div class="simpleCart_items"></div>
 
-       	<table class="table table-striped">
-	<thead>
-		<tr>
-			<th>Suma</th>
-			<th>Koszty przesyłki</th>
-			<th>Do zapłaty</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>
-				<div class="simpleCart_total"></div>
-			</td>
-			<td>
-				<div class="simpleCart_shipping"></div>
-			</td>
-			<td>
-				<div class="simpleCart_grandTotal"></div>
-			</td>
-		</tr>
-	</tbody>
+        <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Suma</th>
+      <th>Koszty przesyłki</th>
+      <th>Do zapłaty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="simpleCart_total"></div>
+      </td>
+      <td>
+        <div class="simpleCart_shipping"></div>
+      </td>
+      <td>
+        <div class="simpleCart_grandTotal"></div>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 
       </div>
       <div class="modal-footer">
-      	<a href="javascript:;" class="simpleCart_empty btn btn-secondary">Wyczyść koszyk</a>
+        <a href="javascript:;" class="simpleCart_empty btn btn-secondary">Wyczyść koszyk</a>
         <a href="javascript:;" class="simpleCart_checkout btn btn-primary">Zamów</a>
       </div>
     </div>
   </div>
+  </div>
 </div>
 
 
-<!-- FOOTER -->
-<footer class="container">
-  <!-- theme change div -->
-  <div class="collapse col-1 offset-7" id="theme-menu">
-    <a href="#" onclick="changeCSS('css/style.css', 0);">
-      <img src="media/theme-icon.png" class="theme-icon">
-    </a> 
-    <a href="#" onclick="changeCSS('css/style_dark.css', 0);">
-      <img src="media/theme-icon-dark.png" class="theme-icon">
-    </a>
-  </div>
-  <p class="float-right">
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <div id="smallFooter">
+      <!-- powrót na górę -->
+      <p class="float-right">
+        <a href="#">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+        </a>
+      </p>
+
+      <p>&copy; Chmielnicki-Dubiaho, Inc. 
+        
+        &middot;
+        <!-- kontakt -->
+        <a href="info.html#">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+          </svg>
+        </a> 
+        
+        &middot;
+        <!-- pomoc -->
+        <a href="info.html#pomoc">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+            <circle cx="8" cy="4.5" r="1"/>
+          </svg>
+        </a> 
+        
+        &middot;
+        <!-- onas -->
+        <a href="info.html#onas">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+          </svg> 
+        </a> 
+        
+        &middot;
+        <!-- polityka -->
+        <a href="info.html#polityka">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm-7-1a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7zm0-3a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+          </svg>
+        </a>
+      </p>
+    </div>
+    <div id="normalFooter">
+      
+      <!-- powrót na górę -->
+      <p class="float-right">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
-      </svg>
-      <a href="#">Powrót na górę</a>
-  </p>
-  <p>&copy; MM-MMXX Chmielnicki-Dubiaho, Inc. 
-      <!-- kontakt -->
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-      </svg>
-      <a href="info.html#"> Kontakt </a> 
-      <!-- pomoc -->
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-          <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
-          <circle cx="8" cy="4.5" r="1"/>
-      </svg>
-      <a href="info.html#pomoc"> Pomoc </a> 
-      <!-- onas -->
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
-      </svg> 
-      <a href="info.html#onas"> O nas </a> 
-      <!-- polityka -->
-      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm-7-1a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7zm0-3a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
-      </svg>
-      <a href="info.html#polityka"> Polityka prywatności </a>
-      <!-- theme button -->
-      <button type="button" class="btn btn-footer" id="theme-switch" data-toggle="collapse" data-target="#theme-menu" aria-expanded="false" aria-controls="collapseExample">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
-          <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
         </svg>
-      </button>
-    </p>
-</footer>
+        <a href="#">
+          Powrót na górę
+        </a>
+      </p>
+
+      <p>&copy; MM-MMXX Chmielnicki-Dubiaho, Inc. 
+        <!-- kontakt -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+        </svg>
+        <a href="info.html#"> Kontakt </a> 
+        <!-- pomoc -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+            <circle cx="8" cy="4.5" r="1"/>
+        </svg>
+        <a href="info.html#pomoc"> Pomoc </a> 
+        <!-- onas -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        </svg> 
+        <a href="info.html#onas"> O nas </a> 
+        <!-- polityka -->
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm-7-1a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7zm0-3a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+        </svg>
+        <a href="info.html#polityka"> Polityka prywatności </a>
+      </p>
+    </div>
+  </footer>
+  
 </body></html>
