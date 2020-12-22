@@ -1,6 +1,1 @@
-test test test
-
-
-sprawdzam jak działa ten git - filip
-
-no działa spoko nawet - filip
+powinniśmy może w tym readme dać źródła skąd bierzemy zdjęcia, filmy, ikony, itp z linkami ale to nie wiem jak chcesz --filip
