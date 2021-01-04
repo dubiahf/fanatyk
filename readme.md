@@ -30,12 +30,8 @@
 ----
 # WSTĘP #
 
-
-
 "Fanatyk" jest projektem sklepu internetowego dla wędkarzy stworzonego na zaliczenie ćwiczeń informatycznych z przedmiotu Interfejsy Użytkownika 
 przez Aleksandra Chmielnickiego oraz Filipa Dubiaho, studentów pierwszego roku Informatyki Stosowanej na Uniwersytecie Łódzkim.
-
-
 
 # ŹRÓDŁA #
 
@@ -50,9 +46,7 @@ Wspomagaliśmy się też bibliotekami CSS jak i również JavaScript takimi jak:
 Budując duży nacisk kładliśmy na responsywność oraz poprawne działanie na każdym urządzeniu. Stąd też wybór Bootstrapa. 
 Pozwolił on na stworzenie poprawnie wyglądającej strony przez laików takich jak my.
 
-
 ### SKLEP I KOSZYK ###
-
 
 Do realizacji koszyka użyliśmy open source skryptu simpleCart(js) autorstwa Bretta Wejrowskiego
     
@@ -61,9 +55,7 @@ Do realizacji koszyka użyliśmy open source skryptu simpleCart(js) autorstwa Br
    * https://cdnjs.com/libraries/simplecartjs
    * https://twitter.com/simplecartjs
 
-#                          #
-UŻYTKOWNICY I LOGOWANIE
-
+### UŻYTKOWNICY I LOGOWANIE ###
 
 Strona posiada również system użytkowników z działającą rejestracją oraz logowaniem.
 
@@ -76,9 +68,7 @@ Nie jest to najbezpieczniejsze czy najbardziej optymalne rozwiązanie ale myśl�
 
 Szczegóły na temat działania skryptu są w komentarzach w pliku "login.js" oraz "account.js".
 
-
-#        #
-MOTYWY
+### MOTYWY ###
 
 
 Dodatkową funkcją jaką umieściliśmy na stronie jest możliwość wybrania jednego z dwóch motywów przewodnich strony - ciemny i jasny.
@@ -92,8 +82,7 @@ Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generując
 
 W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdjęć oraz ikon. Poniżej znajduje się lista wraz ze źródłami.
 
-   #    #
-   Ikony
+  ### Ikony ###
    
    * [Ikona metki z ceną](https://icons.getbootstrap.com/icons/tag/), przekierowująca do sklepu
    * [Ikona koperty](https://icons.getbootstrap.com/icons/envelope/), przekierowująca do podstrony "info.html" 
@@ -109,8 +98,7 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
    * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person-square/), użyta na stronie "account.html" 
    * [Ikona ołówka](https://icons.getbootstrap.com/icons/pencil/), użyta na stronie "account.html" 
 
-   #             #
-   Zdjęcia i filmy
+  ### Zdjęcia i filmy ###
    
    * Film w "karuzeli" na stronie głównej ()
    * Pierwsze [zdjęcie](https://unsplash.com/photos/xp3xtQW3pqs) w "karuzeli" na stronie głównej 
@@ -120,8 +108,7 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
    * [Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "pomoc" na stronie "info.html" 
    * [Zdjęcie](https://unsplash.com/photos/IS6RwpuEJpY) w sekcji "kontakt" na stronie "info.html"
 
-   #    #
-   Fonty
+   ### Fonty ###
    
    * Czcionka "[PW Bubbles](https://www.dafont.com/pwbubbles.font)" użyta na stronie "404.html" 
 
