@@ -91,6 +91,7 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
 
    -----
    Ikony
+   
         -Ikona metki z ceną, przekierowująca do sklepu (https://icons.getbootstrap.com/icons/tag/)
         -Ikona koperty, przekierowująca do podstrony "info.html" (https://icons.getbootstrap.com/icons/envelope/)
         -Ikona sylwetki, przekierowująca do strony z logowaniem/konta (https://icons.getbootstrap.com/icons/person-circle/)
@@ -107,6 +108,7 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
 
    ---------------
    Zdjęcia i filmy
+   
         -Film w "karuzeli" na stronie głównej ()
         -Pierwsze zdjęcie w "karuzeli" na stronie głównej (https://unsplash.com/photos/xp3xtQW3pqs)
         -Drugie zdjęcie w  "karuzeli" na stronie głównej (https://unsplash.com/photos/qPLAPVzPmE8)
@@ -117,12 +119,14 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
 
    -----
    Fonty
+   
         -Czcionka "PW Bubbles" użyta na stronie "404.html" (https://www.dafont.com/pwbubbles.font)
 
 
     
     
     
-   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "Francois One" (https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)
+   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "Francois One"
+        -(https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)
 
    Rysunek ryby, użyty na stronie "404.html" stworzony przez Filipa Dubiaho w programie Adobe Illustrator.
