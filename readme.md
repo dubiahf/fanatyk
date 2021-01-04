@@ -43,7 +43,7 @@ Wspomagaliśmy się też bibliotekami CSS jak i również JavaScript takimi jak:
    * [Popper JS](https://popper.js.org/) załączony razem z JS Bootstrapa 
    * [jQuery](https://jquery.com/)
 
-Budując duży nacisk kładliśmy na responsywność oraz poprawne działanie na każdym urządzeniu. Stąd też wybór Bootstrapa. 
+Budując stronę duży nacisk kładliśmy na responsywność oraz poprawne działanie na każdym urządzeniu. Stąd też wybór Bootstrapa. 
 Pozwolił on na stworzenie poprawnie wyglądającej strony przez laików takich jak my.
 
 ### SKLEP I KOSZYK ###
