@@ -44,7 +44,7 @@ Strona, jak i wszystkie jej funkcje zostały napisane przez nas w języku HTML, 
 Wspomagaliśmy się też bibliotekami CSS jak i również JavaScript takimi jak:
     
    * [Bootstrap](https://getbootstrap.com/)
-   * [Popper JS](załączony razem z JS Bootstrapa https://popper.js.org/)
+   * [Popper JS](https://popper.js.org/) załączony razem z JS Bootstrapa 
    * [jQuery](https://jquery.com/)
 
 Budując duży nacisk kładliśmy na responsywność oraz poprawne działanie na każdym urządzeniu. Stąd też wybór Bootstrapa. 
@@ -87,7 +87,7 @@ Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych A
 Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generującą palety kolorów.
 
 
-
+----------------------------------------
 #               MEDIA                #
 
 
