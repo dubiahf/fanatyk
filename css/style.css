@@ -1,23 +1,56 @@
 body{
     color: var(--text);
     background: var(--bg);
+    font-size: 3em;
     transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+.lead{
+    font-size: 2.5rem;
+}
+
+.privacy-span{
+    font-size: 1.05em;
+    font-weight: 500;
+}
+
+#smallFooter{
+    font-size: .7em;
+}
+
+
+
+.top-buffer { margin-top:50px; }
+
+
+
+/* ZNACZNIK <a>
+-------------------------------------------------- */
+
 a{
     color: var(--a-text);
     text-decoration: none;
 }
+
 a:focus,
 a:active,
 a:hover{
     color: var(--a-text-hover);
 }
 
-/* DROPDOWN DO MOTYWU */
+/* DROPDOWN DO MOTYWU
+-------------------------------------------------- */
 
 .dropdown-menu{
     background-color: var(--bg-dropdown);
-    
     border: none;
     border-radius: 0px;
 }
@@ -34,20 +67,27 @@ a:hover{
     content: var(--bg-dark);
 } 
 
+.dropdown-item{
+    font-size: 3em;
+    color: var(--text);
+}
+
 .dropdown-menu a::before{
     content:'';
     border: 1px solid white;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-    /* navbar */
+/* NAVBAR
+-------------------------------------------------- */
 
 .navbar{
-    background-color: var(--bg-nav)
+    background-color: var(--bg-nav);
+    
 }
 
 .navbar a{
@@ -78,18 +118,59 @@ a:hover{
 }
 
 .navbar-brand{
-    height: 100px;
+    height: 200px;
 }
 
+.navbar-toggler{
+    height: 100px;
+    width: 150px;
+}
 
-/*              FORM             */
+/* CAROUSEL
+-------------------------------------------------- */
+
+.carousel,.item,.active{
+    height:100%;
+}
+
+.carousel-inner{
+     height:100%;
+}
+
+.carousel-indicators{
+     bottom: -100px;
+}
+
+.carousel-indicators li{
+    margin:10px;
+    text-indent:0;
+    width:300px;
+    height: 40px;
+    border:none;
+    background-color: transparent;
+}
+
+.carousel-inner{
+    width: 50vw;
+}
+
+/* FORM
+-------------------------------------------------- */
+
+.vertical-center {
+    min-height: 80%;  /* Fallback dla przegladarek ktore nie wspieraja vh */
+    min-height: 80vh; 
+  
+    display: flex;
+    align-items: center;
+  }
 
 .form-control{
     border-radius: 0;
     border:none;
     border-bottom: 2px solid var(--form-border-inactive);
     transition:all .6s;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .form-control:focus, 
@@ -106,12 +187,15 @@ a:hover{
 .input-group-text{
     border: none;
     background: var(--input-background);
+    border-radius: 0;
 }
 
-    /* buttons */
+/* PRZYCISKI / BUTTONS
+-------------------------------------------------- */
 
 .btn{
     background-color: var(--bg-dropdown);
+    font-size: 1em;
 }
 
 .btn, 
@@ -143,7 +227,9 @@ a:hover{
     border: none;
 }
 
-.top-buffer { margin-top:50px; }
+#theme-btn{
+    position: absolute;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -160,54 +246,298 @@ a:hover{
     margin-left: .75rem;
   }
   
+
+/* kawalek wziety z przykladowej strony bootstrapa */  
+
+/* Featurettes
+------------------------- */
   
-  /* Featurettes
-  ------------------------- */
-  
-  .featurette-divider {
+.featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
+}
   
-  /* Thin out the marketing headings */
-  .featurette-heading {
+/* Thin out the marketing headings */
+
+.featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
-  }
+}
 
-  rect{
-      fill: rgb(145, 155, 155);
-  }
-  
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  @media (min-width: 40em) {
-    .featurette-heading {
-      font-size: 50px;
+rect{
+    fill: rgb(145, 155, 155);
+}
+
+.featurette{
+    display: block;
+    font-size: 2em;
+}
+
+.contact-img{
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.contact-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* RZECZY UZYWANE TYLKO DO 404
+-------------------------------------------------- */
+
+#bottom{
+    background-color: var(--backgroundBot404);
+    height: 50vh; 
+    width: 102vw; 
+    float: left;
+}
+
+#top{
+    background: var(--backgroundTop404);
+    height: 50vh; 
+    width: 102vw; 
+    float: left;
+}
+
+.fish-cont{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    z-index: 2;
+}
+
+#fish{
+    width: 5em;
+    height: 5em;
+    top:50vh;
+    float: right;
+    animation: float 5s ease-in-out infinite;
+}
+
+#bubbles{
+    position: absolute;
+    font-family: "PWBubbles";
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.5);
+    top: 200px;
+    left: 10%;
+    z-index: 1;
+}
+
+#bubbles span{
+    display: inline-block;
+}
+
+.bubbles-small{
+    position: absolute;
+    left: 20%;
+    top: 10vh;
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "PWBubbles";
+}
+
+/* cubic-bezier zeby dac roznorodnosc w plywaniu babelkow */
+
+#first4{
+    animation:  move 5s cubic-bezier(0.82, 0.6, 0.45, 0.68) infinite;
+}
+
+#first0{
+    animation:  move 5s linear infinite;    
+}
+
+#second4{
+    animation:  move 5s cubic-bezier(0.26, 0.33, 0.95, 0.76) infinite;
+}
+
+#bubbles span:hover{
+    animation: pop 1s cubic-bezier(0.16, 0.87, 0.48, 0.99) forwards;
+}
+
+/* ANIMACJE
+-------------------------------------------------- */
+
+@keyframes move{
+    0%{
+        transform: scale(0, 0) translateY(0);
+        
     }
-  }
+    50%{
+        transform: scale(.5, .5) translateY(-300px);
+    }
+    100%{
+        transform: scale(1, 1) translateY(-600px);
+    }
+}
+
+@keyframes pop{
+    from{
+        opacity: 1;
+        transform: translateZ(0) scale(1, 1);
+    }
+    to{
+        opacity: 0;
+        transform: translateZ(0) scale(1.75, 1.75);
+    }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+/* FONTY
+-------------------------------------------------- */
+
+@font-face {
+    font-family: "PWBubbles";
+    src:url("../media/fonts/PWBubbles.ttf");
+}
+
   
-  @media (min-width: 62em) {
+/* RESPONSYWNY CSS
+-------------------------------------------------- */
+  
+/* kawalek wziety z przykladowej strony bootstrapa */
+@media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 4rem;
+    }
+}
+  
+@media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
     }
-  }
+}
 
-  /*          responsywny footer */
+
+
+/* DUZE EKRANY
+-------------------------------------------------- */
+
 @media only screen and (min-width: 993px) {
+    
     #smallFooter {
         display: none;
     }
+
+    body{
+        font-size: 1em;
+    }
+
+    .navbar-brand{
+        height: 100px;
+    }
+
+    .dropdown-item{
+        font-size: 1em;
+    }
+
+    .dropdown-menu a::before{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .privacy-span{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    
+    
+    .lead{
+        font-size: 1em;
+    }
+
+    .contact-img{
+        margin-top: 100px; 
+        width: 400px;
+        height: 400px;
+    }
+
+    
+    .featurette{
+        display: flex;
+    }
+
+    .contact-img{
+        overflow: hidden;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .contact-img img{
+        width: 600px;
+        height: auto;
+    }
+
+    .form-control{
+        border-radius: 0;
+        border:none;
+        border-bottom: 2px solid var(--form-border-inactive);
+        transition:all .6s;
+        font-size: 17px;
+    }
+
+    .fish-cont{
+        position: absolute;
+        top:39%;
+        left: 75%;
+    }
+
+    #fish{
+        width: 15em;
+        height: 15em;
+    }
+
+    #bubbles{
+        position: absolute;
+        font-size: 10rem;
+        left: 55%;
+        top: 300px;
+    }
+
+    .bubbles-small{
+        display: none;
+    }
+
 }
+
+
+/* MALE EKRANY
+-------------------------------------------------- */
+
 @media only screen and (max-width: 992px) {
     #normalFooter {
         display: none;
     }
+
+    #bubbles{
+        display: none;
+    }
 }
 
-/* MOTYWY */
+/* MOTYWY
+-------------------------------------------------- */
 
 :root{
     --green0: #00a087;
@@ -222,6 +552,12 @@ a:hover{
 
     --bg-light: linear-gradient(45deg, var(--green0) 0%, var(--white1) 100%);
     --bg-dark: linear-gradient(45deg, var(--black1) 0%, var(--black2) 100%);
+
+    /* kolory do 404 */
+    --skyBlue: #72DDF7;
+    --yellow: #d9dd92;
+    --yellow2: #F49E4C;
+    --black3: #051923;
 }
 
 .light{
@@ -238,6 +574,9 @@ a:hover{
     --form-border-invalid: var(--red0);
     --form-border-inactive: var(--silverMetallic);
     --input-background: var(--white0);
+
+    --backgroundTop404: var(--skyBlue);
+    --backgroundBot404: var(--yellow);
 
 }
 
@@ -256,14 +595,27 @@ a:hover{
     --form-border-inactive: var(--silverMetallic);
     --input-background: var(--white0);
 
+    --backgroundTop404: var(--black3);
+    --backgroundBot404: var(--yellow2);
+
 }
-img{
+
+/* DO WYRZUCENIA, ZROBIC MOTYWY DO 404 */
+.notfound{
+    --bg: var(--blue);
+}
+
+
+/* CART  --- DO PRZEJRZENIA CO POTRZEBNE, A CO DO WYRZUCENIA BO JA NIE WIEM CO TY OLUS TO ZROBILES
+------------------------------------------------------------------------------------------------- */
+
+.item_thumb{
   height:250px;
   width:250px;
   margin-top:20px;
-  }
+}
 .simpleCart_shelfItem{
-  margin 20px;
+  margin: 20px;
   transition: all 0.3s;
   }
 .simpleCart_shelfItem:hover{
