@@ -43,9 +43,9 @@ Strona, jak i wszystkie jej funkcje zostały napisane przez nas w języku HTML, 
 
 Wspomagaliśmy się też bibliotekami CSS jak i również JavaScript takimi jak:
     
-   *[Bootstrap](https://getbootstrap.com/)
-   *[Popper JS](załączony razem z JS Bootstrapa https://popper.js.org/)
-   *[jQuery](https://jquery.com/)
+   * [Bootstrap](https://getbootstrap.com/)
+   * [Popper JS](załączony razem z JS Bootstrapa https://popper.js.org/)
+   * [jQuery](https://jquery.com/)
 
 Budując duży nacisk kładliśmy na responsywność oraz poprawne działanie na każdym urządzeniu. Stąd też wybór Bootstrapa. 
 Pozwolił on na stworzenie poprawnie wyglądającej strony przez laików takich jak my.
@@ -56,10 +56,10 @@ SKLEP I KOSZYK
 
 Do realizacji koszyka użyliśmy open source skryptu simpleCart(js) autorstwa Bretta Wejrowskiego
     
-   *https://simplecartjs.stevemcarthur.co.uk/
-   *https://github.com/wojodesign/simplecart-js
-   *https://cdnjs.com/libraries/simplecartjs
-   *https://twitter.com/simplecartjs
+   * https://simplecartjs.stevemcarthur.co.uk/
+   * https://github.com/wojodesign/simplecart-js
+   * https://cdnjs.com/libraries/simplecartjs
+   * https://twitter.com/simplecartjs
 
 #                          #
 UŻYTKOWNICY I LOGOWANIE
@@ -67,7 +67,7 @@ UŻYTKOWNICY I LOGOWANIE
 
 Strona posiada również system użytkowników z działającą rejestracją oraz logowaniem.
 
-Skrypt inspirowany ["sessionStorage Login"](https://codepen.io/karenhenwood/pen/pPLjjK) autorstwa [Karen Henwood](https://codepen.io/karenhenwood).  
+Skrypt inspirowany "[sessionStorage Login](https://codepen.io/karenhenwood/pen/pPLjjK)" autorstwa [Karen Henwood](https://codepen.io/karenhenwood).  
 
 Został napisany przez nas z pomocą poradników oraz forów dyskusyjnych takich jak [Stack Overflow](https://stackoverflow.com/).
 
@@ -96,40 +96,40 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
    #    #
    Ikony
    
-   *[Ikona metki z ceną](https://icons.getbootstrap.com/icons/tag/), przekierowująca do sklepu
-   *[Ikona koperty](https://icons.getbootstrap.com/icons/envelope/), przekierowująca do podstrony "info.html" 
-   *[Ikona sylwetki](https://icons.getbootstrap.com/icons/person-circle/), przekierowująca do strony z logowaniem/konta 
-   *[Ikona koszyka](https://icons.getbootstrap.com/icons/basket2/), przywołująca modal z koszykiem 
-   *[Ikona kropli](https://icons.getbootstrap.com/icons/droplet/), wysuwająca menu zmiany motywu 
-   *[Ikona informacji](https://icons.getbootstrap.com/icons/info-circle/), przekierowująca do podstrony "info.html" 
-   *[Ikona sylwetek dwóch osób](https://icons.getbootstrap.com/icons/people/), przekierowująca do podstrony "info.html"
-   *[Ikona kłódki](https://icons.getbootstrap.com/icons/lock/), przekierowująca do podstrony "info.html" 
-   *Ikony strzałek, [przekierowujące do strony głównej](https://icons.getbootstrap.com/icons/arrow-left/) oraz [przesuwające na górę strony](https://icons.getbootstrap.com/icons/arrow-up/) 
-   *Ikony użyte w koszyku - [plus](https://icons.getbootstrap.com/icons/plus-circle/), [minus](https://icons.getbootstrap.com/icons/dash-circle/), [x](https://icons.getbootstrap.com/icons/x-circle/)
-   *[Ikona sylwetki](https://icons.getbootstrap.com/icons/person/), użyta na stronie "login.html" 
-   *[Ikona sylwetki](https://icons.getbootstrap.com/icons/person-square/), użyta na stronie "account.html" 
-   *[Ikona ołówka](https://icons.getbootstrap.com/icons/pencil/), użyta na stronie "account.html" 
+   * [Ikona metki z ceną](https://icons.getbootstrap.com/icons/tag/), przekierowująca do sklepu
+   * [Ikona koperty](https://icons.getbootstrap.com/icons/envelope/), przekierowująca do podstrony "info.html" 
+   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person-circle/), przekierowująca do strony z logowaniem/konta 
+   * [Ikona koszyka](https://icons.getbootstrap.com/icons/basket2/), przywołująca modal z koszykiem 
+   * [Ikona kropli](https://icons.getbootstrap.com/icons/droplet/), wysuwająca menu zmiany motywu 
+   * [Ikona informacji](https://icons.getbootstrap.com/icons/info-circle/), przekierowująca do podstrony "info.html" 
+   * [Ikona sylwetek dwóch osób](https://icons.getbootstrap.com/icons/people/), przekierowująca do podstrony "info.html"
+   * [Ikona kłódki](https://icons.getbootstrap.com/icons/lock/), przekierowująca do podstrony "info.html" 
+   * Ikony strzałek, [przekierowujące do strony głównej](https://icons.getbootstrap.com/icons/arrow-left/) oraz [przesuwające na górę strony](https://icons.getbootstrap.com/icons/arrow-up/) 
+   * Ikony użyte w koszyku - [plus](https://icons.getbootstrap.com/icons/plus-circle/), [minus](https://icons.getbootstrap.com/icons/dash-circle/), [x](https://icons.getbootstrap.com/icons/x-circle/)
+   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person/), użyta na stronie "login.html" 
+   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person-square/), użyta na stronie "account.html" 
+   * [Ikona ołówka](https://icons.getbootstrap.com/icons/pencil/), użyta na stronie "account.html" 
 
    #             #
    Zdjęcia i filmy
    
-   *Film w "karuzeli" na stronie głównej ()
-   *Pierwsze [zdjęcie](https://unsplash.com/photos/xp3xtQW3pqs) w "karuzeli" na stronie głównej 
-   *Drugie [zdjęcie](https://unsplash.com/photos/qPLAPVzPmE8) w  "karuzeli" na stronie głównej 
-   *Pierwsze [zdjęcie](https://unsplash.com/photos/NwEUY1xts1U) na stronie głównej 
-   *Drugie [zdjęcie](https://unsplash.com/photos/mPwbCoYHAYI) na stronie głównej 
-   *[Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "pomoc" na stronie "info.html" 
-   *[Zdjęcie](https://unsplash.com/photos/IS6RwpuEJpY) w sekcji "kontakt" na stronie "info.html"
+   * Film w "karuzeli" na stronie głównej ()
+   * Pierwsze [zdjęcie](https://unsplash.com/photos/xp3xtQW3pqs) w "karuzeli" na stronie głównej 
+   * Drugie [zdjęcie](https://unsplash.com/photos/qPLAPVzPmE8) w  "karuzeli" na stronie głównej 
+   * Pierwsze [zdjęcie](https://unsplash.com/photos/NwEUY1xts1U) na stronie głównej 
+   * Drugie [zdjęcie](https://unsplash.com/photos/mPwbCoYHAYI) na stronie głównej 
+   * [Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "pomoc" na stronie "info.html" 
+   * [Zdjęcie](https://unsplash.com/photos/IS6RwpuEJpY) w sekcji "kontakt" na stronie "info.html"
 
    #    #
    Fonty
    
-   *Czcionka ["PW Bubbles"](https://www.dafont.com/pwbubbles.font) użyta na stronie "404.html" 
+   *Czcionka "[PW Bubbles](https://www.dafont.com/pwbubbles.font)" użyta na stronie "404.html" 
 
 
     
     
     
-   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki ["Francois One"](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)
+   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "[Francois One](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
 
    Rysunek ryby, użyty na stronie "404.html" stworzony przez Filipa Dubiaho w programie Adobe Illustrator.
