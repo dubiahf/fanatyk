@@ -116,6 +116,6 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
     
     
     
-   **Logo** "*fanatyk*" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "[*Francois One*](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
+   **Logo** "*fanatyk*" stworzone przez Filipa Dubiaho w programie [Inkscape](https://inkscape.org/) z użyciem czcionki "[*Francois One*](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
 
-   **Rysunek rybki**, użyty na stronie "*404.html*" stworzony przez Filipa Dubiaho w programie Adobe Illustrator.
+   **Rysunek rybki**, użyty na stronie "*404.html*" stworzony przez Filipa Dubiaho w programie [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
