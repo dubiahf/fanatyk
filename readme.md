@@ -90,7 +90,6 @@ Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generując
 ----------------------------------------
 #               MEDIA                #
 
-
 W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdjęć oraz ikon. Poniżej znajduje się lista wraz ze źródłami.
 
    #    #
