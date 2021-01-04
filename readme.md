@@ -123,7 +123,7 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
    #    #
    Fonty
    
-   *Czcionka "[PW Bubbles](https://www.dafont.com/pwbubbles.font)" użyta na stronie "404.html" 
+   * Czcionka "[PW Bubbles](https://www.dafont.com/pwbubbles.font)" użyta na stronie "404.html" 
 
 
     
