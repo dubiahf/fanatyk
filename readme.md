@@ -65,11 +65,15 @@ Do realizacji koszyka użyliśmy open source skryptu simpleCart(js) autorstwa Br
 UŻYTKOWNICY I LOGOWANIE
 
 
-Strona posiada również system użytkowników z działającą rejestracją oraz logowaniem. 
+Strona posiada również system użytkowników z działającą rejestracją oraz logowaniem.
+
 Skrypt inspirowany "sessionStorage Login" autorstwa Karen Henwood (https://codepen.io/karenhenwood/pen/pPLjjK) (https://codepen.io/karenhenwood).
+
 Został napisany przez nas z pomocą poradników oraz forów dyskusyjnych takich jak Stack Overflow (https://stackoverflow.com/).
+
 Jest to dość prymitywny skrypt, zbierający dane z formularza i umieszczaniu ich w tablicach, które następnie są przechowywane w pamięci przeglądarki za pomocą localStorage oraz sessionStorage.
 Nie jest to najbezpieczniejsze czy najbardziej optymalne rozwiązanie ale myślę że dla naszych potrzeb, zupełnie wystarczające. 
+
 Szczegóły na temat działania skryptu są w komentarzach w pliku "login.js" oraz "account.js".
 
 
@@ -126,7 +130,6 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
     
     
     
-   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "Francois One"
-        -(https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)
+   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki ["Francois One"](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)
 
    Rysunek ryby, użyty na stronie "404.html" stworzony przez Filipa Dubiaho w programie Adobe Illustrator.
