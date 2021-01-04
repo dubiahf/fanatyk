@@ -27,8 +27,8 @@
     MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNx:,';xXMMMMMMMMMMMMMMMMMMMMMMM
     MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNWMMMMMMMMMMMMMMMMMMMMMMMMM
 
-----------------------------------------
-#               WSTĘP                #
+----
+# WSTĘP #
 
 
 
@@ -37,7 +37,7 @@ przez Aleksandra Chmielnickiego oraz Filipa Dubiaho, studentów pierwszego roku 
 
 
 
-#               ŹRÓDŁA               #
+# ŹRÓDŁA #
 
 Strona, jak i wszystkie jej funkcje zostały napisane przez nas w języku HTML, JavaScript oraz CSS.
 
@@ -50,8 +50,8 @@ Wspomagaliśmy się też bibliotekami CSS jak i również JavaScript takimi jak:
 Budując duży nacisk kładliśmy na responsywność oraz poprawne działanie na każdym urządzeniu. Stąd też wybór Bootstrapa. 
 Pozwolił on na stworzenie poprawnie wyglądającej strony przez laików takich jak my.
 
-#         #
-SKLEP I KOSZYK
+
+### SKLEP I KOSZYK ###
 
 
 Do realizacji koszyka użyliśmy open source skryptu simpleCart(js) autorstwa Bretta Wejrowskiego
@@ -87,8 +87,8 @@ Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych A
 Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generującą palety kolorów.
 
 
-----------------------------------------
-#               MEDIA                #
+----
+# MEDIA #
 
 W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdjęć oraz ikon. Poniżej znajduje się lista wraz ze źródłami.
 
