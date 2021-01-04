@@ -30,7 +30,7 @@
 ----
 # WSTĘP #
 
-"Fanatyk" jest projektem sklepu internetowego dla wędkarzy stworzonego na zaliczenie ćwiczeń informatycznych z przedmiotu Interfejsy Użytkownika 
+"*Fanatyk*" jest projektem sklepu internetowego dla wędkarzy stworzonego na zaliczenie ćwiczeń informatycznych z przedmiotu Interfejsy Użytkownika 
 przez Aleksandra Chmielnickiego oraz Filipa Dubiaho, studentów pierwszego roku Informatyki Stosowanej na Uniwersytecie Łódzkim.
 
 # ŹRÓDŁA #
@@ -59,20 +59,20 @@ Do realizacji koszyka użyliśmy open source skryptu simpleCart(js) autorstwa Br
 
 Strona posiada również system użytkowników z działającą rejestracją oraz logowaniem.
 
-Skrypt inspirowany "[sessionStorage Login](https://codepen.io/karenhenwood/pen/pPLjjK)" autorstwa [Karen Henwood](https://codepen.io/karenhenwood).  
+Skrypt inspirowany "[*sessionStorage Login*](https://codepen.io/karenhenwood/pen/pPLjjK)" autorstwa [Karen Henwood](https://codepen.io/karenhenwood).  
 
 Został napisany przez nas z pomocą poradników oraz forów dyskusyjnych takich jak [Stack Overflow](https://stackoverflow.com/).
 
 Jest to dość prymitywny skrypt, zbierający dane z formularza i umieszczaniu ich w tablicach, które następnie są przechowywane w pamięci przeglądarki za pomocą localStorage oraz sessionStorage.
 Nie jest to najbezpieczniejsze czy najbardziej optymalne rozwiązanie ale myślę że dla naszych potrzeb, zupełnie wystarczające. 
 
-Szczegóły na temat działania skryptu są w komentarzach w pliku "login.js" oraz "account.js".
+Szczegóły na temat działania skryptu są w komentarzach w pliku "*login.js*" oraz "*account.js*".
 
 ### MOTYWY ###
 
 
 Dodatkową funkcją jaką umieściliśmy na stronie jest możliwość wybrania jednego z dwóch motywów przewodnich strony - ciemny i jasny.
-Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych Arkuszach Stylów. Tak jak z użtkownikami, szczegóły dostępne są w komentarzach w pliku "theme.js".
+Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych Arkuszach Stylów. Tak jak z użtkownikami, szczegóły dostępne są w komentarzach w pliku "*theme.js*".
 
 Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generującą palety kolorów.
 
@@ -85,37 +85,37 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
   ### Ikony ###
    
    * [Ikona metki z ceną](https://icons.getbootstrap.com/icons/tag/), przekierowująca do sklepu
-   * [Ikona koperty](https://icons.getbootstrap.com/icons/envelope/), przekierowująca do podstrony "info.html" 
+   * [Ikona koperty](https://icons.getbootstrap.com/icons/envelope/), przekierowująca do podstrony "*info.html*" 
    * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person-circle/), przekierowująca do strony z logowaniem/konta 
    * [Ikona koszyka](https://icons.getbootstrap.com/icons/basket2/), przywołująca modal z koszykiem 
    * [Ikona kropli](https://icons.getbootstrap.com/icons/droplet/), wysuwająca menu zmiany motywu 
-   * [Ikona informacji](https://icons.getbootstrap.com/icons/info-circle/), przekierowująca do podstrony "info.html" 
-   * [Ikona sylwetek dwóch osób](https://icons.getbootstrap.com/icons/people/), przekierowująca do podstrony "info.html"
-   * [Ikona kłódki](https://icons.getbootstrap.com/icons/lock/), przekierowująca do podstrony "info.html" 
+   * [Ikona informacji](https://icons.getbootstrap.com/icons/info-circle/), przekierowująca do podstrony "*info.html*" 
+   * [Ikona sylwetek dwóch osób](https://icons.getbootstrap.com/icons/people/), przekierowująca do podstrony "*info.html*"
+   * [Ikona kłódki](https://icons.getbootstrap.com/icons/lock/), przekierowująca do podstrony "*info.html*" 
    * Ikony strzałek, [przekierowujące do strony głównej](https://icons.getbootstrap.com/icons/arrow-left/) oraz [przesuwające na górę strony](https://icons.getbootstrap.com/icons/arrow-up/) 
    * Ikony użyte w koszyku - [plus](https://icons.getbootstrap.com/icons/plus-circle/), [minus](https://icons.getbootstrap.com/icons/dash-circle/), [x](https://icons.getbootstrap.com/icons/x-circle/)
-   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person/), użyta na stronie "login.html" 
-   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person-square/), użyta na stronie "account.html" 
-   * [Ikona ołówka](https://icons.getbootstrap.com/icons/pencil/), użyta na stronie "account.html" 
+   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person/), użyta na stronie "*login.html*" 
+   * [Ikona sylwetki](https://icons.getbootstrap.com/icons/person-square/), użyta na stronie "*account.html*" 
+   * [Ikona ołówka](https://icons.getbootstrap.com/icons/pencil/), użyta na stronie "*account.html*" 
 
   ### Zdjęcia i filmy ###
    
    * Film w "karuzeli" na stronie głównej ()
-   * Pierwsze [zdjęcie](https://unsplash.com/photos/xp3xtQW3pqs) w "karuzeli" na stronie głównej 
-   * Drugie [zdjęcie](https://unsplash.com/photos/qPLAPVzPmE8) w  "karuzeli" na stronie głównej 
+   * Pierwsze [zdjęcie](https://unsplash.com/photos/xp3xtQW3pqs) w "*karuzeli*" na stronie głównej 
+   * Drugie [zdjęcie](https://unsplash.com/photos/qPLAPVzPmE8) w  "*karuzeli*" na stronie głównej 
    * Pierwsze [zdjęcie](https://unsplash.com/photos/NwEUY1xts1U) na stronie głównej 
    * Drugie [zdjęcie](https://unsplash.com/photos/mPwbCoYHAYI) na stronie głównej 
-   * [Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "pomoc" na stronie "info.html" 
-   * [Zdjęcie](https://unsplash.com/photos/IS6RwpuEJpY) w sekcji "kontakt" na stronie "info.html"
+   * [Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "*pomoc*" na stronie "*info.html*" 
+   * [Zdjęcie](https://unsplash.com/photos/IS6RwpuEJpY) w sekcji "*kontakt*" na stronie "*info.html*"
 
    ### Fonty ###
    
-   * Czcionka "[PW Bubbles](https://www.dafont.com/pwbubbles.font)" użyta na stronie "404.html" 
+   * Czcionka "[*PW Bubbles*](https://www.dafont.com/pwbubbles.font)" użyta na stronie "*404.html*" 
 
 
     
     
     
-   Logo "fanatyk" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "[Francois One](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
+   **Logo** "*fanatyk*" stworzone przez Filipa Dubiaho w programie Inkscape z użyciem czcionki "[*Francois One*](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
 
-   Rysunek ryby, użyty na stronie "404.html" stworzony przez Filipa Dubiaho w programie Adobe Illustrator.
+   **Rysunek rybki**, użyty na stronie "*404.html*" stworzony przez Filipa Dubiaho w programie Adobe Illustrator.
