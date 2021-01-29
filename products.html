@@ -105,444 +105,432 @@
     </div>
   </nav>
   
-  <!-- MAIN -->
+ <!-- MAIN -->
 
-  <!--SORTOWANIE -->
-  <div style="float: left;position: absolute;left: 50%;">
-    
-  <div class="controls btn-group" style="margin-top: 10px;">
-    <!-- searchbar -->
-    <div class="input-group">
-      <input class="form-control"  placeholder="wyszukaj" onkeyup="filter(this);detectParent();">
-        <div class="input-group-append">
-          <span class="input-group-text">
-            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-              <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-            </svg>
-          </span>
-        </div> 
-    </div>
+   <!--SORTOWANIE -->
+   <div style="float: left;position: absolute;left: 50%;">
+    <label></label>
+   <div class="controls btn-group" style="margin-top: 10px;">
     <button class="filter btn btn-default" data-filter="all">All</button>
     <button class="filter btn btn-default" data-filter=".kolowrotek">Kołowrotki</button>
     <button class="filter btn btn-default" data-filter=".zylki">Żyłki</button>
     <button class="filter btn btn-default" data-filter=".wedziska">Wędziska</button>
-  </div>
-
-
-
-    <label></label>
+   </div>
+  
+  
+  
+     <label></label>
     <div class="controls btn-group" style="margin-top: 10px;">
       <button class="sort btn btn-default" data-sort="price:asc">Cena rosnąco</button>
       <button class="sort btn btn-default" data-sort="price:desc">Cena malejąco</button>
     </div>
   </div>
-
-<p>&nbsp;</p>
-
- <!--Produkty -->
- <br />
-  <div id="Container" class="container">
-  <div class="row">
-  <!--Produkt1 -------------------------------------------------------------------------->
+  
+  <p>&nbsp;</p>
+  
+   <!--Produkty -->
+   <br />
+    <div id="Container" class="container">
+    <div class="row">
+    <!--Produkt1 -------------------------------------------------------------------------->
+    <a href="checkout.html" class="informacje">
+      <div class="col-md-4 item text-center mix zylki" data-price="14.50" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Żyłka Fiume Match&Feeder <br> 150m/0,16mm </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/97dfb1f12c5f0dd0cc17cffefc603e07/images/thumbnail/large_big-fiume-match-feeder.jpg?lm=1563276984" alt="Card image cap">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">14.50 zł</h4><br>
+            </div>
+          </div>
+    </a>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="number" value="1" class="item_Quantity"><br>
+            </div>
+            <div class="col-md-6">
+              <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Produkt2 ------------------------------------------------------------------------->
   <a href="checkout.html" class="informacje">
-    <div class="col-md-4 item text-center mix zylki" data-price="14.50" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Żyłka Fiume Match&Feeder <br> 150m/0,16mm </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/97dfb1f12c5f0dd0cc17cffefc603e07/images/thumbnail/large_big-fiume-match-feeder.jpg?lm=1563276984" alt="Card image cap">
+          <div class="col-md-4 item text-center mix kolowrotek" data-price="74.00" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Kołowrotek Daiwa Sweepfire E <br> 3000C </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/26f0a28d404fc3634787e5ad73048abe/images/thumbnail/large_big-daiwa-sweepfire-e-reel-spinning-fixed-spool-reels.jpg?lm=1554996442" alt="Card image cap">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">14.50 zł</h4><br>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">74.00 zł</h4><br>
+            </div>
           </div>
-        </div>
   </a>
-        <div class="row">
-          <div class="col-md-6">
-            <input type="number" value="1" class="item_Quantity"><br>
-          </div>
-          <div class="col-md-6">
-            <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Produkt2 ------------------------------------------------------------------------->
-<a href="checkout.html" class="informacje">
-        <div class="col-md-4 item text-center mix kolowrotek" data-price="74.00" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Kołowrotek Daiwa Sweepfire E <br> 3000C </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/26f0a28d404fc3634787e5ad73048abe/images/thumbnail/large_big-daiwa-sweepfire-e-reel-spinning-fixed-spool-reels.jpg?lm=1554996442" alt="Card image cap">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">74.00 zł</h4><br>
-          </div>
-        </div>
-</a>
-        <div class="row">
-          <div class="col-md-6 ">
-            <input type="number" value="1" class="item_Quantity"><br>
-          </div>
-          <div class="col-md-6" >
-            <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+          <div class="row">
+            <div class="col-md-6 ">
+              <input type="number" value="1" class="item_Quantity"><br>
+            </div>
+            <div class="col-md-6" >
+              <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--Produkt3 ------------------------------------------------------------------------->
-<a href="checkout.html" class="informacje">
-    <div class="col-md-4 item text-center mix wedziska" data-price="149.00" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Wędzisko Robinson Stinger Feeder 3,6m  <br>50-110g </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/ddc19a78bc5496a594b06b6657a0ed32/images/thumbnail/large_stinger-feeder.jpg?lm=1555020273" alt="Card image cap">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">149.00zł</h4><br>
-          </div>
-        </div>
-</a>
-        <div class="row">
-          <div class="col-md-6">
-            <input type="number" value="1" class="item_Quantity">
-          </div>
-          <div class="col-md-6">
-            <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-
-
-  <!--Produkt4 -------------------------------------------------------------------------->
+      <!--Produkt3 ------------------------------------------------------------------------->
   <a href="checkout.html" class="informacje">
-    <div class="col-md-4 item text-center mix kolowrotek" data-price="114.00" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Kołowrotek Robinson  <br> Black Runner<br> 504 </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/204f517bc67c281e198e7ab246821495/images/thumbnail/large_23K-CX-BR.jpg?lm=1555046420" alt="Card image cap">
+      <div class="col-md-4 item text-center mix wedziska" data-price="149.00" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Wędzisko Robinson Stinger Feeder 3,6m  <br>50-110g </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/ddc19a78bc5496a594b06b6657a0ed32/images/thumbnail/large_stinger-feeder.jpg?lm=1555020273" alt="Card image cap">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">114.00 zł</h4><br>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">149.00zł</h4><br>
+            </div>
           </div>
-        </div>
   </a>
-        <div class="row">
-          <div class="col-md-6">
-            <input type="number" value="1" class="item_Quantity"><br>
-          </div>
-          <div class="col-md-6">
-            <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Produkt5 ------------------------------------------------------------------------->
-<a href="checkout.html" class="informacje">
-        <div class="col-md-4 item text-center mix zylki" data-price="9.90" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Żyłka York <br>Exclusive Gold Line  <br> 150m/0,25mm </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/5db85ae5aef9ff976ed13a97a7d42d3a/images/thumbnail/large_big-zylkA-YORK-EXCLUSIVE-1-.jpg?lm=1562655947" alt="Card image cap">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">9.90 zł</h4><br>
-          </div>
-        </div>
-</a>
-        <div class="row">
-          <div class="col-md-6 ">
-            <input type="number" value="1" class="item_Quantity"><br>
-          </div>
-          <div class="col-md-6" >
-            <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="number" value="1" class="item_Quantity">
+            </div>
+            <div class="col-md-6">
+              <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--Produkt6 ------------------------------------------------------------------------->
-<a href="checkout.html" class="informacje">
-    <div class="col-md-4 item text-center mix wedziska" data-price="1999.00" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Wędzisko Maros Serie Walter Continental Feeder  3,60m  80g </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/19ff8957432cb2043ade7dd4fcf0bb7b/images/thumbnail/large_CONTINENTAL-FEEDER.png?lm=1604491070" alt="Card image cap">
+    
+  
+  
+    <!--Produkt4 -------------------------------------------------------------------------->
+    <a href="checkout.html" class="informacje">
+      <div class="col-md-4 item text-center mix kolowrotek" data-price="114.00" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Kołowrotek Robinson  <br> Black Runner<br> 504 </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/204f517bc67c281e198e7ab246821495/images/thumbnail/large_23K-CX-BR.jpg?lm=1555046420" alt="Card image cap">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">1999.00 zł</h4><br>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">114.00 zł</h4><br>
+            </div>
           </div>
-        </div>
-</a>
-        <div class="row">
-          <div class="col-md-6">
-            <input type="number" value="1" class="item_Quantity">
-          </div>
-          <div class="col-md-6">
-            <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a>
+    </a>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="number" value="1" class="item_Quantity"><br>
+            </div>
+            <div class="col-md-6">
+              <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-
-  <!--Produkt7 -------------------------------------------------------------------------->
+      <!--Produkt5 ------------------------------------------------------------------------->
   <a href="checkout.html" class="informacje">
-    <div class="col-md-4 item text-center mix wedziska" data-price="165.00" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Wędzisko Konger <br>Sentry Spin <br>228cm 12g  </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/b04146739b4a605cbf1e861cc713814e/images/thumbnail/large_wedka-konger-sentry-7.jpg?lm=1573134248">
+          <div class="col-md-4 item text-center mix zylki" data-price="9.90" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Żyłka York <br>Exclusive Gold Line  <br> 150m/0,25mm </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/5db85ae5aef9ff976ed13a97a7d42d3a/images/thumbnail/large_big-zylkA-YORK-EXCLUSIVE-1-.jpg?lm=1562655947" alt="Card image cap">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">165.00 zł</h4><br>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">9.90 zł</h4><br>
+            </div>
           </div>
-        </div>
   </a>
-        <div class="row">
-          <div class="col-md-6">
-            <input type="number" value="1" class="item_Quantity"><br>
-          </div>
-          <div class="col-md-6">
-            <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Produkt8 ------------------------------------------------------------------------->
-<a href="checkout.html" class="informacje">
-        <div class="col-md-4 item text-center mix kolowrotek" data-price="249.00" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Kołowrotek Ryobi <br> Arctica <br>FD 2000 </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/743aededa5c8799719736bd181977bed/images/thumbnail/large_arctica.jpg?lm=1556833078" alt="Card image cap">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">249.00 zł</h4><br>
-          </div>
-        </div>
-</a>
-        <div class="row">
-          <div class="col-md-6 ">
-            <input type="number" value="1" class="item_Quantity"><br>
-          </div>
-          <div class="col-md-6" >
-            <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+          <div class="row">
+            <div class="col-md-6 ">
+              <input type="number" value="1" class="item_Quantity"><br>
+            </div>
+            <div class="col-md-6" >
+              <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--Produkt9 ------------------------------------------------------------------------->
-<a href="checkout.html" class="informacje">
-    <div class="col-md-4 item text-center mix zylki" data-price="39.99" style="margin-top:50px;">
-      <div class="simpleCart_shelfItem">
-        <h2 class="item_name"> Żyłka Drennan <br>Feeder&Method <br>Mono 250m/0,20mm </h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/697ed645800af0319d9f95da7a33fc3c/images/thumbnail/large_2982da3a42649cb584b6c47ad2e5.jpg?lm=1587986274">
+      <!--Produkt6 ------------------------------------------------------------------------->
+  <a href="checkout.html" class="informacje">
+      <div class="col-md-4 item text-center mix wedziska" data-price="1999.00" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Wędzisko Maros Serie Walter Continental Feeder  3,60m  80g </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/19ff8957432cb2043ade7dd4fcf0bb7b/images/thumbnail/large_CONTINENTAL-FEEDER.png?lm=1604491070" alt="Card image cap">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-                <h4 class="item_price">39.99 zł</h4><br>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">1999.00 zł</h4><br>
+            </div>
           </div>
-        </div>
-</a>
-        <div class="row">
-          <div class="col-md-6">
-            <input type="number" value="1" class="item_Quantity">
-          </div>
-          <div class="col-md-6">
-            <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a>
+  </a>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="number" value="1" class="item_Quantity">
+            </div>
+            <div class="col-md-6">
+              <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-
-
-    </div>
-  <div class="gap"></div>
-  <div class="gap"></div>
-</div>
-
-<script>
-simpleCart({
-    // array representing the format and columns of the cart,
-    // see the cart columns documentation
-    cartColumns: [
-        { attr: "name", label: "Produkty"},
-        { view:'image' , attr:'thumb', label: false},
-        { view: "currency", attr: "price", label: "Cena"},
-        { view: "decrement", label: false, text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>'},
-        { attr: "quantity", label: "Ilość"},
-        { view: "increment", label: false, text:'<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>'},
-        { view: "currency", attr: "total", label: "Łącznie" },
-        { view: "remove", text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg>', label: false}
-    ],
-    // "div" or "table" - builds the cart as a 
-    // table or collection of divs
-    cartStyle: "table", 
-    // how simpleCart should checkout, see the 
-    // checkout reference for more info 
-    checkout: { 
-        type: "PayPal" , 
-        email: "you@yours.com",
-    },
-    // set the currency, see the currency 
-    // reference for more info
-    currency: "PLN",
-    // collection of arbitrary data you may want to store 
-    // with the cart, such as customer info
-    data: {},
-    // set the cart langauge 
-    // (may be used for checkout)
-    language: "english-us",
-    // array of item fields that will not be 
-    // sent to checkout
-    excludeFromCheckout: [],
-    // custom function to add shipping cost
-       shippingCustom: function(){ 
-         if( simpleCart.quantity() > 5 ){
-              return 0;
-         } else {
-              return 10.99;
-         }
-    },
-    // flat rate shipping option
-    shippingFlatRate: 0,
-    // added shipping based on this value 
-    // multiplied by the cart quantity
-    shippingQuantityRate: 0,
-    // added shipping based on this value 
-    // multiplied by the cart subtotal
-    shippingTotalRate: 0,
-    // tax rate applied to cart subtotal
-    taxRate: 0,
-    // true if tax should be applied to shipping
-    taxShipping: false,
-    // event callbacks 
-    beforeAdd            : null,
-    afterAdd            : null,
-    load                : null,
-    beforeSave        : null,
-    afterSave            : null,
-    update            : null,
-    ready            : null,
-    checkoutSuccess    : null,
-    checkoutFail        : null,
-    beforeCheckout        : null,
-        beforeRemove           : null
-});
-
-simpleCart.bind( 'update' , function(){
-  if (simpleCart.quantity() == 0)
-  {
-    $( ".hideIfEmpty" ).hide();
-    $( ".showIfEmpty" ).show();
-  }
-  else
-  {
-    $( ".hideIfEmpty" ).show();
-    $( ".showIfEmpty" ).hide();    
-  }
-});
-
- $(function(){
-   $("#Container").mixItUp();
- });
-</script>
-
-
-
-
- 
-
-
-
-
   
   
- 
-
-
-
-
-
-
+    <!--Produkt7 -------------------------------------------------------------------------->
+    <a href="checkout.html" class="informacje">
+      <div class="col-md-4 item text-center mix wedziska" data-price="165.00" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Wędzisko Konger <br>Sentry Spin <br>228cm 12g  </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/b04146739b4a605cbf1e861cc713814e/images/thumbnail/large_wedka-konger-sentry-7.jpg?lm=1573134248">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">165.00 zł</h4><br>
+            </div>
+          </div>
+    </a>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="number" value="1" class="item_Quantity"><br>
+            </div>
+            <div class="col-md-6">
+              <a class="item_add btn btn-primary" style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Produkt8 ------------------------------------------------------------------------->
+  <a href="checkout.html" class="informacje">
+          <div class="col-md-4 item text-center mix kolowrotek" data-price="249.00" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Kołowrotek Ryobi <br> Arctica <br>FD 2000 </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/743aededa5c8799719736bd181977bed/images/thumbnail/large_arctica.jpg?lm=1556833078" alt="Card image cap">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">249.00 zł</h4><br>
+            </div>
+          </div>
+  </a>
+          <div class="row">
+            <div class="col-md-6 ">
+              <input type="number" value="1" class="item_Quantity"><br>
+            </div>
+            <div class="col-md-6" >
+              <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Produkt9 ------------------------------------------------------------------------->
+  <a href="checkout.html" class="informacje">
+      <div class="col-md-4 item text-center mix zylki" data-price="39.99" style="margin-top:50px;">
+        <div class="simpleCart_shelfItem">
+          <h2 class="item_name"> Żyłka Drennan <br>Feeder&Method <br>Mono 250m/0,20mm </h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="item_thumb" src="https://sklep-wedkarski.waw.pl/media/products/697ed645800af0319d9f95da7a33fc3c/images/thumbnail/large_2982da3a42649cb584b6c47ad2e5.jpg?lm=1587986274">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                  <h4 class="item_price">39.99 zł</h4><br>
+            </div>
+          </div>
+  </a>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="number" value="1" class="item_Quantity">
+            </div>
+            <div class="col-md-6">
+              <a class="item_add btn btn-primary"  style="margin-bottom: 10px;" href="javascript:;"> Do koszyka </a>
+            </div>
+          </div>
+        </div>
+      </div>
   
- <!-- Modal -->
-<div class="modal fade" id="cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Koszyk <span class="showIfEmpty">jest pusty</span></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+  
+  
       </div>
-      <div class="hideIfEmpty">
-      <div class="modal-body">
-       <div class="simpleCart_items"></div>
-
-        <table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Suma</th>
-      <th>Koszty przesyłki</th>
-      <th>Do zapłaty</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <div class="simpleCart_total"></div>
-      </td>
-      <td>
-        <div class="simpleCart_shipping"></div>
-      </td>
-      <td>
-        <div class="simpleCart_grandTotal"></div>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
+    <div class="gap"></div>
+    <div class="gap"></div>
+  </div>
+  
+  <script>
+  simpleCart({
+      // array representing the format and columns of the cart,
+      // see the cart columns documentation
+      cartColumns: [
+          { attr: "name", label: "Produkty"},
+          { view:'image' , attr:'thumb', label: false},
+          { view: "currency", attr: "price", label: "Cena"},
+          { view: "decrement", label: false, text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>'},
+          { attr: "quantity", label: "Ilość"},
+          { view: "increment", label: false, text:'<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>'},
+          { view: "currency", attr: "total", label: "Łącznie" },
+          { view: "remove", text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg>', label: false}
+      ],
+      // "div" or "table" - builds the cart as a 
+      // table or collection of divs
+      cartStyle: "table", 
+      // how simpleCart should checkout, see the 
+      // checkout reference for more info 
+      checkout: { 
+          type: "PayPal" , 
+          email: "you@yours.com",
+      },
+      // set the currency, see the currency 
+      // reference for more info
+      currency: "PLN",
+      // collection of arbitrary data you may want to store 
+      // with the cart, such as customer info
+      data: {},
+      // set the cart langauge 
+      // (may be used for checkout)
+      language: "english-us",
+      // array of item fields that will not be 
+      // sent to checkout
+      excludeFromCheckout: [],
+      // custom function to add shipping cost
+         shippingCustom: function(){ 
+           if( simpleCart.quantity() > 5 ){
+                return 0;
+           } else {
+                return 10.99;
+           }
+      },
+      // flat rate shipping option
+      shippingFlatRate: 0,
+      // added shipping based on this value 
+      // multiplied by the cart quantity
+      shippingQuantityRate: 0,
+      // added shipping based on this value 
+      // multiplied by the cart subtotal
+      shippingTotalRate: 0,
+      // tax rate applied to cart subtotal
+      taxRate: 0,
+      // true if tax should be applied to shipping
+      taxShipping: false,
+      // event callbacks 
+      beforeAdd            : null,
+      afterAdd            : null,
+      load                : null,
+      beforeSave        : null,
+      afterSave            : null,
+      update            : null,
+      ready            : null,
+      checkoutSuccess    : null,
+      checkoutFail        : null,
+      beforeCheckout        : null,
+          beforeRemove           : null
+  });
+  
+  simpleCart.bind( 'update' , function(){
+    if (simpleCart.quantity() == 0)
+    {
+      $( ".hideIfEmpty" ).hide();
+      $( ".showIfEmpty" ).show();
+    }
+    else
+    {
+      $( ".hideIfEmpty" ).show();
+      $( ".showIfEmpty" ).hide();    
+    }
+  });
+  
+   $(function(){
+     $("#Container").mixItUp();
+   });
+  </script>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+    
+    
+   
+  
+  
+  
+  
+  
+  
+    
+   <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Koszyk <span class="showIfEmpty">jest pusty</span></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="hideIfEmpty">
+        <div class="modal-body">
+         <div class="simpleCart_items"></div>
+  
+          <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Suma</th>
+        <th>Koszty przesyłki</th>
+        <th>Do zapłaty</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="simpleCart_total"></div>
+        </td>
+        <td>
+          <div class="simpleCart_shipping"></div>
+        </td>
+        <td>
+          <div class="simpleCart_grandTotal"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+        </div>
+        <div class="modal-footer">
+          <a href="javascript:;" class="simpleCart_empty btn btn-secondary">Wyczyść koszyk</a>
+          <a href="javascript:;" class="simpleCart_checkout btn btn-primary">Zamów</a>
+        </div>
       </div>
-      <div class="modal-footer">
-        <a href="javascript:;" class="simpleCart_empty btn btn-secondary">Wyczyść koszyk</a>
-        <a href="javascript:;" class="simpleCart_checkout btn btn-primary">Zamów</a>
-      </div>
+    </div>
     </div>
   </div>
-  </div>
-</div>
 
 
 

@@ -30,7 +30,19 @@ h2{
 
 .top-buffer { margin-top:50px; }
 
+.vid{
+    width: auto; 
+    height: 90vh; 
+    margin:0; 
+    padding:0;
+    text-align: center;
+}
 
+#poster{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
 
 /* ZNACZNIK <a>
 -------------------------------------------------- */
@@ -129,12 +141,9 @@ a:hover{
 /* CAROUSEL
 -------------------------------------------------- */
 
-.carousel,.item,.active{
+.carousel-inner-log{
     height:100%;
-}
-
-.carousel-inner{
-     height:100%;
+    width: 50vw;
 }
 
 .carousel-indicators{
@@ -150,8 +159,10 @@ a:hover{
     background-color: transparent;
 }
 
-.carousel-inner{
-    width: 50vw;
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 /* FORM
@@ -285,6 +296,9 @@ rect{
     height: auto;
 }
 
+.index-img{
+    height: auto;
+}
 
 /* RZECZY UZYWANE TYLKO DO 404
 -------------------------------------------------- */
@@ -490,6 +504,10 @@ rect{
         height: auto;
     }
 
+    .index-img{
+        height: auto;
+    }    
+
     .form-control{
         border-radius: 0;
         border:none;
@@ -520,6 +538,10 @@ rect{
         display: none;
     }
 
+    #poster{
+        display: none;
+    }
+
 }
 
 
@@ -532,6 +554,10 @@ rect{
     }
 
     #bubbles{
+        display: none;
+    }
+    
+    #video{
         display: none;
     }
 }
