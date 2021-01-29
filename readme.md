@@ -63,10 +63,10 @@ Skrypt inspirowany "[*sessionStorage Login*](https://codepen.io/karenhenwood/pen
 
 Został napisany przez nas z pomocą poradników oraz forów dyskusyjnych takich jak [Stack Overflow](https://stackoverflow.com/).
 
-Jest to dość prymitywny skrypt, zbierający dane z formularza i umieszczaniu ich w tablicach, które następnie są przechowywane w pamięci przeglądarki za pomocą localStorage oraz sessionStorage.
+Jest to dość prymitywny skrypt, zbierający dane z formularza i umieszczający je w tablicach, które następnie przechowywane są w pamięci przeglądarki za pomocą localStorage oraz sessionStorage.
 Nie jest to najbezpieczniejsze czy najbardziej optymalne rozwiązanie ale myślę że dla naszych potrzeb, zupełnie wystarczające. 
 
-Szczegóły na temat działania skryptu są w komentarzach w pliku "*login.js*" oraz "*account.js*".
+Szczegóły na temat działania skryptu są w komentarzach w plikach "*login.js*" oraz "*account.js*".
 
 ### MOTYWY ###
 
@@ -101,8 +101,6 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
   ### Zdjęcia i filmy ###
    
    * Film w "karuzeli" na stronie głównej ()
-   * Pierwsze [zdjęcie](https://unsplash.com/photos/xp3xtQW3pqs) w "*karuzeli*" na stronie głównej 
-   * Drugie [zdjęcie](https://unsplash.com/photos/qPLAPVzPmE8) w  "*karuzeli*" na stronie głównej 
    * Pierwsze [zdjęcie](https://unsplash.com/photos/NwEUY1xts1U) na stronie głównej 
    * Drugie [zdjęcie](https://unsplash.com/photos/mPwbCoYHAYI) na stronie głównej 
    * [Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "*pomoc*" na stronie "*info.html*" 
