@@ -31,7 +31,7 @@
 # WSTĘP #
 
 "*Fanatyk*" jest projektem sklepu internetowego dla wędkarzy stworzonego na zaliczenie ćwiczeń informatycznych z przedmiotu Interfejsy Użytkownika 
-przez **Aleksandra Chmielnickiego** oraz **Filipa Dubiaho**, studentów pierwszego roku Informatyki Stosowanej na Uniwersytecie Łódzkim.
+autorstwa **Aleksandra Chmielnickiego** oraz **Filipa Dubiaho**, studentów pierwszego roku Informatyki Stosowanej na Uniwersytecie Łódzkim.
 
 # ŹRÓDŁA #
 
