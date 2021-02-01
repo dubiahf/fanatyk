@@ -72,7 +72,7 @@ Szczegóły na temat działania skryptu są w komentarzach w plikach "*login.js*
 
 
 Dodatkową funkcją jaką umieściliśmy na stronie jest możliwość wybrania jednego z dwóch motywów przewodnich strony - ciemny i jasny.
-Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych Arkuszach Stylów. Tak jak z użtkownikami, szczegóły dostępne są w komentarzach w pliku "*theme.js*".
+Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych Arkuszach Stylów. Tak jak z użytkownikami, szczegóły dostępne są w komentarzach w pliku "*theme.js*".
 
 Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generującą palety kolorów.
 
