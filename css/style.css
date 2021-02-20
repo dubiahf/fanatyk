@@ -1,3 +1,7 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
 body{
     color: var(--text);
     background: var(--bg);
@@ -26,9 +30,19 @@ h2{
     font-size: .7em;
 }
 
+.checkout_fish{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 40%;
+    border-radius: 25%;
+    border: #000 solid 1px;
+}
 
-
-.top-buffer { margin-top:50px; }
+.top-buffer{ 
+    margin-top:50px; 
+}
 
 .vid{
     width: auto; 
@@ -168,6 +182,10 @@ a:hover{
 /* FORM
 -------------------------------------------------- */
 
+input{
+    text-align: center;
+}
+
 .vertical-center {
     min-height: 80%;  /* Fallback dla przegladarek ktore nie wspieraja vh */
     min-height: 80vh; 
@@ -234,7 +252,7 @@ a:hover{
 .btn-primary,
 .btn-secondary{
     background-color: var(--bg-dropdown);
-    color: var(--bg);
+    color: var(--nav-text);
     border: none;
 }
 
@@ -298,6 +316,44 @@ rect{
 
 .index-img{
     height: auto;
+}
+
+/* CART  
+-------------------------------------------------------- */
+
+.d-flex{
+    justify-content: space-around;
+}
+
+.item_thumb{
+    width: 100%;
+    margin-top:20px;
+}
+  
+.simpleCart_items img{
+    max-height: 64px;
+    max-width: 64px;
+}
+
+.simpleCart_shelfItem{
+    margin: 5%;
+    padding: 20px;
+}
+
+.simpleCart_remove,
+.simpleCart_increment,
+.simpleCart_decrement{
+    color: var(--bg-dropdown);
+}
+
+/* kolor tekstu w koszyku gdy jest pusty */
+.modal-title,
+.showIfEmpty{
+    color: #000;
+}
+
+.item_price{
+    font-size: 2em;
 }
 
 /* RZECZY UZYWANE TYLKO DO 404
@@ -542,6 +598,29 @@ rect{
         display: none;
     }
 
+    /* stylowanie koszyka i products.html */
+    .simpleCart_shelfItem:hover,
+    .simpleCart_shelfItem:focus{
+        transform:scale(1.05);
+        -ms-transform:scale(1.05);
+        -webkit-transform:scale(1.05);
+        box-shadow: none;
+        background-color: #FFF;
+        color: #000;
+    }
+      
+    .simpleCart_shelfItem{
+        transition: all 0.3s;
+        width: 300px;
+        margin: 10%;
+        padding: 20px;
+    }
+      
+    .filter-container{
+        position: absolute;
+        float: left;
+        left: 50%;
+    }
 }
 
 
@@ -559,6 +638,42 @@ rect{
     
     #video{
         display: none;
+    }
+
+    /* stylowanie koszyka i products.html */
+    .modal-dialog{
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+        max-width: none;
+    }
+      
+    .modal-content{
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        border-radius: 0;
+        font-size: 3rem;
+    }
+
+    .modal-title{
+        font-size: 4rem;
+    }
+
+    .table{
+        font-size: 2rem;
+    }
+    .simpleCart_shelfItem{
+        width: 600px;
+    }
+
+    .item-thumb{
+        display: none;
+    }
+
+    .close{
+        font-size: 5rem;
     }
 }
 
@@ -624,54 +739,4 @@ rect{
     --backgroundTop404: var(--black3);
     --backgroundBot404: var(--yellow2);
 
-}
-
-/* DO WYRZUCENIA, ZROBIC MOTYWY DO 404 */
-.notfound{
-    --bg: var(--blue);
-}
-
-
-/* CART  --- DO PRZEJRZENIA CO POTRZEBNE, A CO DO WYRZUCENIA BO JA NIE WIEM CO TY OLUS TO ZROBILES
-------------------------------------------------------------------------------------------------- */
-
-.item_thumb{
-  height:250px;
-  width:250px;
-  margin-top:20px;
-}
-.simpleCart_shelfItem{
-  margin: 20px;
-  transition: all 0.3s;
-  }
-.simpleCart_shelfItem:hover{
-  transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -webkit-transform:scale(1.05);
-  box-shadow: 0 0 20px;
-  background-color: #FFF;
-  }
-input{
-    width: 50px;
-    text-align: center;
-
-  }
-  .simpleCart_items img{
-    max-height: 64px;
-    max-width: 64px;
-  }
-  .informacje,.informacje:hover{
-    color:black;
-    text-decoration: none;
-  }
-  .produkt_karty{
-    background-color: white;
- 
-  }
-.item-quantity, .item-decrement, .item-increment{
-    text-align: center;
-
-}
-.mix{
-  display: none;
 }
