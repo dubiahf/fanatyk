@@ -105,6 +105,7 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
    * Drugie [zdjęcie](https://unsplash.com/photos/mPwbCoYHAYI) na stronie głównej 
    * [Zdjęcie](https://unsplash.com/photos/UK78i6vK3sc) w sekcji "*pomoc*" na stronie "*info.html*" 
    * [Zdjęcie](https://unsplash.com/photos/IS6RwpuEJpY) w sekcji "*kontakt*" na stronie "*info.html*"
+   * Zdjęcia produktów na stronie "*products.html*" pochodzą ze strony [Trotka](https://sklep-wedkarski.waw.pl/)
 
    ### Fonty ###
    
@@ -117,3 +118,4 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
    **Logo** "*fanatyk*" stworzone przez Filipa Dubiaho w programie [Inkscape](https://inkscape.org/) z użyciem czcionki "[*Francois One*](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
 
    **Rysunek rybki**, użyty na stronie "*404.html*" stworzony przez Filipa Dubiaho w programie [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
+   **Rysunek rybki**, użyty na stronie "*checkout.html*" stworzony przez Filipa Dubiaho w programie [Adobe Photoshop](https://www.adobe.com/products/photoshop.html).
