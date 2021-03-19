@@ -621,6 +621,10 @@ rect{
         float: left;
         left: 50%;
     }
+    .mix
+    {
+        display: none;
+    }
 }
 
 
