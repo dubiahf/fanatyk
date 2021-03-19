@@ -77,6 +77,8 @@ Zrealizowaliśmy to za pomocą języka JavaScript oraz zmiennych w Kaskadowych A
 Przy wyborze kolorów wspieraliśmy się stroną https://coolors.co/, generującą palety kolorów.
 
 
+Strona jest również hostowana za pomocą github-pages [tu](https://dubiahf.github.io/fanatyk/).
+
 ----
 # MEDIA #
 
