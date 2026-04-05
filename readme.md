@@ -31,7 +31,7 @@
 # WSTĘP #
 
 "*Fanatyk*" jest projektem sklepu internetowego dla wędkarzy stworzonego na zaliczenie ćwiczeń informatycznych z przedmiotu Interfejsy Użytkownika 
-autorstwa **Aleksandra Chmielnickiego** oraz **Filipa Dubiaho**, studentów pierwszego roku Informatyki Stosowanej na Uniwersytecie Łódzkim.
+autorstwa studentów pierwszego roku Informatyki Stosowanej na Uniwersytecie Łódzkim.
 
 # ŹRÓDŁA #
 
@@ -117,6 +117,6 @@ W wielu miejscach na stronie użyliśmy różnego rodzaju mediów, plików, zdj�
     
     
     
-   **Logo** "*fanatyk*" stworzone przez Filipa Dubiaho w programie [Inkscape](https://inkscape.org/) z użyciem czcionki "[*Francois One*](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
+   **Logo** "*fanatyk*" stworzone przeze mnie w programie [Inkscape](https://inkscape.org/) z użyciem czcionki "[*Francois One*](https://fonts.google.com/specimen/Francois+One?preview.text_type=custom)"
 
-   **Rysunek rybki**, użyty na stronie "*404.html*" stworzony przez Filipa Dubiaho w programie [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
+   **Rysunek rybki**, użyty na stronie "*404.html*" stworzony przeze mnie w programie [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
